@@ -1,9 +1,7 @@
 :root {
-	--header-image: url('https://dappercat.neocities.org/DapperCats_Corner_Logo_alpha_V2.png');
-	--body-bg-wave: url('https://dappercat.neocities.org/wave_loop.gif');
-	--body-bg-stars: url('file://C:/Users/Moiz/Documents/HTML_and_CSS/Personal_Website/night_stars.gif');
+	--header-image: url('https://dappercat.neocities.org/media/DapperCats_Corner_Logo_alpha_V2.png');
+	--body-bg-wave: url('https://dappercat.neocities.org/media/wave_loop.gif');
 	--body-bg-image-alt: url('https://sadhost.neocities.org/images/tiles/purplesky.gif');
-	--test-bg-image: url('file://C:/Users/Moiz/Documents/HTML_and_CSS/Personal_Website/0c075a95b11df64e85e625b44491f53d.png');
 	
 	/*colors*/
 	--sky-blue: #8cc8e3;
@@ -19,10 +17,9 @@ body {
 	color: var(--alice-blue);
 	background-image: var(--body-bg-wave);
 }
-
-            * {
-                box-sizing: border-box;
-            }
+* {
+	box-sizing: border-box;
+}
 
 #container {
 	/*width of the content, is used for the % sizes in other style properties that are nested within this tag in the HTML document*/
@@ -70,12 +67,10 @@ body {
 
 #navbar li {
 	padding: 15px;
-	display: inline-block;
 }
 
 #navbar a {
 	text-decoration: none;
-	display: inline-block;
 }
 
 #navbar a:hover{
@@ -193,8 +188,13 @@ main {
                 #rightSidebar {
                     order: 3;
                 }
+                
+                #navbar {
+                    flex-wrap: wrap;
+					width: 800px;
+                }
 
                 #navbar ul {
                     flex-wrap: wrap;
                 }
-            }s
+            }
