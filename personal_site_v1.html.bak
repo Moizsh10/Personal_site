@@ -2,31 +2,32 @@
 <html>
 <head>
   <title>DapperCat's Corner</title>
-  <link rel="stylesheet" href="personal_site_v1.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
   <body>
 
 	<div id="container">
   <!--INSERT HEIGHT OF HEADER IMAGE HERE LATER-->
-	<div id="header" style="height: 200px;"></div> 
+	<div id="header" style="height: 200px;">
 	<!--	<img src='/DapperCats_Corner_LogoV1.png'>-->
-	<div id="headerArea">
+	</div> 
 		<nav id="navbar"> 
 			<ul>
 				<li><a href="/index.html">Home</a></li>
-				<li><a href="/pesonal_proj.html">Personal Projects</a></li>
+				<li><a href="/personal_proj.html">Personal Projects</a></li>
 				<li><a href="/media.html">Media</a></li>
 				<li><a href="/writing.html">Creative Writing</a></li>
 			</ul>
 		</nav>
-	</div>
 		<div id="flex">
 			<main>
 				<h1>Meowdy</h1>
 				<p>Welcome to my cozy little corner of the web!</p>
 				<p>I like the jib of your cut <br>&emsp;- Moiz</p>
 				<h2>This site is currently under construction!</h2>
+				
+				<iframe src="https://giphy.com/embed/cfGmVRsJI6wq6noGxP" width="462" height="480" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/animation-dreamlife-daviin-cfGmVRsJI6wq6noGxP">via GIPHY</a></p>
 				
 				<p>Cat ipsum dolor sit amet, stare at wall turn and meow stare at wall some more meow again continue staring , and love and coo around boyfriend who purrs and makes the perfect moonlight eyes so i can purr and swat the glittery gleaming yarn to him (the yarn is from a $125 sweater) i cry and cry and cry unless you pet me, and then maybe i cry just for fun. Nyan fluffness ahh cucumber! side-eyes your "jerk" other hand while being petted chirp at birds yet sleeps on my head and i is playing on your console hooman and tweeting a baseball so the best thing in the universe is a cardboard box. Stare at the wall, play with food and get confused by dust furball roll roll roll scratch at fleas, meow until belly rubs, hide behind curtain when vacuum cleaner is on scratch strangers and poo on owners food. Have my breakfast spaghetti yarn take a deep sniff of sock then walk around with mouth half open for snuggles up to shoulders or knees and purrs you to sleep but chew on cable. Waffles dead stare with ears cocked or kitty kitty pussy cat doll throw down all the stuff in the kitchen. Love me! carrying out surveillance on the neighbour's dog. Lick sellotape sniff all the things chew on cable, hey! you there, with the hands or knock over christmas tree. Refuse to drink water except out of someone's glass stare at guinea pigs for why must they do that meow for food, then when human fills food dish, take a few bites of food and continue meowing, paw at beetle and eat it before it gets away has closed eyes but still sees you sun bathe. See owner, run in terror peer out window, chatter at birds, lure them to mouth kitty loves pigs bird bird bird bird bird bird human why take bird out i could have eaten that. Mark territory run in circles, so scratch the postman wake up lick paw wake up owner meow meow cats are the world. Meow climb into cupboard and lick the salt off rice cakes. Stare at wall turn and meow stare at wall some more meow again continue staring . Being gorgeous with belly side up meow decide to want nothing to do with my owner today but the door is opening! how exciting oh, it's you, meh so carefully drink from water glass and then spill it everywhere and proceed to lick the puddle jump on fridge my cat stared at me he was sipping his tea, too. I like frogs and 0 gravity scratch the box pet me pet me don't pet me, so warm up laptop with butt lick butt fart rainbows until owner yells pee in litter box hiss at cats that box? i can fit in that box x. Wake up human for food at 4am bite the neighbor's bratty kid scoot butt on the rug and paw at beetle and eat it before it gets away rub butt on table. Spot something, big eyes, big eyes, crouch, shake butt, prepare to pounce claw drapes. Get video posted to internet for chasing red dot bite the neighbor's bratty kid, but flee in terror at cucumber discovered on floor. Poop on the floor, break a planter, sprint, eat own hair, vomit hair, hiss, chirp at birds, eat a squirrel, hide from fireworks, lick toe beans, attack christmas tree go crazy with excitement when plates are clanked together signalling the arrival of cat food. Sniff sniff i just saw other cats inside the house and nobody ask me before using my litter box yet rub my belly hiss hey! you there, with the hands. Chase ball of string dream about hunting birds for make muffins meow meow you are my owner so here is a dead rat or hide head under blanket so no one can see when in doubt, wash. Brown cats with pink ears claw at curtains stretch and yawn nibble on tuna ignore human bite human hand. Crash against wall but walk away like nothing happened. </p>
 

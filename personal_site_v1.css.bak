@@ -189,12 +189,13 @@ main {
                     order: 3;
                 }
                 
-                #navbar {
+                #container navbar {
                     flex-wrap: wrap;
-					width: 800px;
+					height: 3%;
                 }
 
-                #navbar ul {
+                #container navbar ul {
                     flex-wrap: wrap;
+					height: 3%;
                 }
             }
