@@ -1,0 +1,201 @@
+:root {
+	--header-image: url('https://dappercat.neocities.org/media/DapperCats_Corner_Logo_alpha_V2.png');
+	--body-bg-wave: url('https://dappercat.neocities.org/media/wave_loop.gif');
+	--body-bg-image-alt: url('https://sadhost.neocities.org/images/tiles/purplesky.gif');
+	
+	/*colors*/
+	--sky-blue: #8cc8e3;
+	--gunmetal-blue: #103242;
+	--link-blue: #0066cc;
+	--alice-blue: #DEEFF7;
+}
+
+body {
+	margin: 0;
+	background-color: #08031A;
+	background-size: 90px;
+	color: var(--alice-blue);
+	background-image: var(--body-bg-wave);
+}
+* {
+	box-sizing: border-box;
+}
+
+#container {
+	/*width of the content, is used for the % sizes in other style properties that are nested within this tag in the HTML document*/
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+#container a {
+	font-weight: bold;
+}
+
+#container a:link {
+	color: var(--link-blue);
+}
+
+#container a:visited{
+	color: var(--link-blue);
+}
+
+#header {
+	width: 100%;
+	/* header color here! */
+	background-color: var(--sky-blue);
+	height: 200px;
+	background-image: var(--header-image);
+	background-size: 100%;
+}
+
+#navbar {
+	height: 50px;
+	width: 100%;
+	background-color: var(--gunmetal-blue);
+	position: sticky;
+	top: 0px;
+}
+
+#navbar ul {
+	display: flex;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	justify-content: space-evenly;
+}
+
+#navbar li {
+	padding: 15px;
+}
+
+#navbar a {
+	text-decoration: none;
+}
+
+#navbar a:hover{
+	text-decoration: underline;
+}
+
+#navbar li:hover{
+	background-color: blue;
+}
+
+#flex {
+	display: flex;
+}
+
+aside {
+	background-color: blue;
+	width: 150px;
+	padding: 20px;
+	font-size: smaller;	
+}
+
+main {
+	background-color: var(--sky-blue);
+	flex: 1;
+	padding: 20px;
+	order: 2;
+	color: black;
+}
+
+#leftSidebar {
+	order: 1;
+}
+
+#leftSidebar h2{
+	margin: 0;
+	padding: 0;
+}
+
+#sidebarNav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 110px;
+}
+
+#sidebarNav li {	
+	padding: 5px;
+	margin: 5px 0;
+	background-color: var(--gunmetal-blue);
+}
+
+#sidebarNav li a {
+	text-decoration: none;
+}
+
+#sidebarNav li a:hover{
+	text-decoration: underline;
+}
+
+#rightSidebar {
+	order: 3;
+}
+
+#footer {
+	height: 40px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5px;
+	background-color: var(--gunmetal-blue);
+}
+
+#footer ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	justify-content: space-evenly;
+}
+
+#footer li {
+	text-decoration: none;
+	padding: 5px;
+}
+
+/* BELOW THIS POINT IS MEDIA QUERY */
+
+            /* so you wanna change the width of your page? 
+    by default, the container width is 1000px.
+    in order to keep things responsive, take your new height,
+    and then subtrack it by 100. use this new number as the 
+    "max-width" value below
+    */
+
+            @media only screen and (max-width: 900px) {
+                #flex {
+                    flex-wrap: wrap;
+                }
+
+                aside {
+                    width: 100%;
+                }
+
+                /* the order of the items is adjusted here for responsiveness!
+      since the sidebars would be too small on a mobile device.
+      feel free to play around with the order!
+      */
+                main {
+                    order: 1;
+                }
+
+                #leftSidebar {
+                    order: 2;
+                }
+
+                #rightSidebar {
+                    order: 3;
+                }
+                
+                #container navbar {
+                    flex-wrap: wrap;
+					height: 3%;
+                }
+
+                #container navbar ul {
+                    flex-wrap: wrap;
+					height: 3%;
+                }
+            }
