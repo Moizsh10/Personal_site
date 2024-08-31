@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>DapperCat's Corner</title>
+  <title>DapperCat's Corner - Creative Writing</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -22,7 +22,7 @@
 		</nav>
 		<div id="flex">
 			<main>
-				<h1>Meowdy</h1>
+				<h1>Creative Writing</h1>
 				<p>Welcome to my cozy little corner of the web!</p>
 				<p>I like the jib of your cut <br>&emsp;- Moiz</p>
 				<h2>This site is currently under construction!</h2>
