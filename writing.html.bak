@@ -26,18 +26,18 @@
 				
 				<p>I think Ramses II (or more likely his ghost writter) put it best when he said:</p>
 				
-				<blockquote>Gaze upon my works ye mighty and despair!</blockquote>
+				<blockquote><strong>Gaze upon my works ye mighty and despair!</strong></blockquote>
 				
 				<p>Welcome to my little collection of written works. I've got a smattering of poems, a couple of short stories, and a WIP World Bible or two for you to peruse as you glide between the aisles of my little library. </p> 
 				
 				<p>Please remember that if you remove something from a shelf, to put it in the book cart and don't try and place it back yourself. Make sure to sign up for a library card if you're going to check something out! ^_^ </p>
 
 				<div id="thumbnail-container">
-					<div class="thumbnail" style="background-image:url(https://dappercat.neocities.org/media/poetry_thumbnail_icon.png)">
+					<div class="thumbnail" style="background-image:url(https://dappercat.neocities.org/media/poetry_thumbnail_icon_small.png)">
 						<h1><a href="/poems.html">Poems</a></h1>
 					</div>
 					
-					<div class="thumbnail" style="background-image:url(https://dappercat.neocities.org/media/stories_thumbnail_icon.png)">
+					<div class="thumbnail" style="background-image:url(https://dappercat.neocities.org/media/stories_thumbnail_icon_small.png)">
 						<h1><a href="/short_stories.html">Short Stories</a></h1>
 					</div>
 					
