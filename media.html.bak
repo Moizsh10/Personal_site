@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>DapperCat's Corner - Personal Projects</title>
+  <title>DapperCat's Corner - Media</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -22,11 +22,21 @@
 		</nav>
 		<div id="flex">
 			<main>
-				<h1>Personal Projects</h1>
-				<p>Welcome to my cozy little corner of the web!</p>
-
-				<h2>This site is currently under construction!</h2>
+				<h1>Media</h1>
 				
+				<p>Pictures, Videos, Memes and more. This is the one-stop-shop for them all!</p>
+				
+				<div id="thumbnail-container">
+					<div class="thumbnail" style="background-image:url(https://dappercat.neocities.org/media/icons/memes_folder_icon.png)">
+						<h1><a href="/memes.html">Scratch-Baked Memes</a></h1>
+					</div>
+					
+					<div class="thumbnail" style="background-image:url(https://dappercat.neocities.org/media/icons/bed_squad_icon.png)">
+						<h1><a href="/bed_squad.html">The Bed Squad</a></h1>
+					</div>
+					
+			</div>				
+
 			</main>
 			<!-- <aside id="LeftSidebar">
 				<h2>Navigation</h2>
@@ -40,8 +50,8 @@
 		</div>
 		<footer id="footer">
 			<ul>
-				<li><a href="https://www.youtube.com/@Moizsh10"><img src="https://dappercat.neocities.org/media/logos_and_buttons/youtube.png"></a></li>
-				<li><a href="https://steamcommunity.com/id/Moizsh10/"><img src="https://dappercat.neocities.org/media/logos_and_buttons/steam.png"></a></li>
+				<li><a href="https://www.youtube.com/@Moizsh10"><img src=""></a></li>
+				<li><a href="https://steamcommunity.com/id/Moizsh10/"><img src=""></a></li>
 				<li><a href="https://github.com/Moizsh10"><img src="https://dappercat.neocities.org/media/logos_and_buttons/github-mark-white.png"></a></li>
 				<li><a href="https://neocities.org/"><img src="https://dappercat.neocities.org/media/logos_and_buttons/neocities.png"></a></li>
 			</ul>
