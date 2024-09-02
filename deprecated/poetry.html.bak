@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DapperCat's Corner - Poetry</title>
+  <link rel="stylesheet" href="poetry-style.css">
+</head>
+
+  <body>
+
+	<div id="container">
+  <!--INSERT HEIGHT OF HEADER IMAGE HERE LATER-->
+	<div id="header" style="height: 200px;">
+	<!--	<img src='/DapperCats_Corner_LogoV1.png'>-->
+	</div> 
+		<nav id="navbar"> 
+			<ul>
+				<li><a href="/index.html">Home</a></li>
+				<li><a href="/personal_proj.html">Personal Projects</a></li>
+				<li><a href="/media.html">Media</a></li>
+				<li><a href="/writing.html">Creative Writing</a></li>
+			</ul>
+		</nav>
+		<div id="flex">
+			<main>
+				<h1 id="top">Poetry</h1>
+				
+				<p>Use the handy dandy Appendix to jump to a specific poem, or feel free to just scroll and peruse!</p>
+				
+				<h2>Appendix</h2>
+				<ul>
+				  <li><a href=#p1>Coven of Cats </a></li>
+				  <li><a href=#p2>Storm </a></li>
+				  <li><a href=#p3>3:45 </a></li>
+				  <li><a href=#p4>Dunes so Tall </a></li>
+				</ul>
+				
+<!--				<h3 id="p5"> </h3>-->
+				<h3 id="p1">Coven of Cats </h3>
+				<blockquote>
+          <p><i>My local coven of black cats.<br>
+            <br>Every night you gather en masse.<br>
+            <br>Shadowy silhouettes like pointed hats.<br>
+            <br>You flick your tails <br>
+            <br>and behind featureless masks.<br>
+            <br>Mew out hexes so matter of fact<br>
+          </i></p>
+        </blockquote>
+          <a href=#top><p>Appendix</p></a>
+
+          
+				<h3 id="p2">Storm </h3>
+				<blockquote>
+				  <p><i>Wake up and smell the rain<br>
+            <br>Thick sheets that swallow all sound.<br>
+            <br>Gaze upon the thunder that surrounds<br>
+            <br>Crackling with power, and<br>
+            <br>Feel the bolts when they strike the ground <br>
+            <br>Bared like fangs, burning the night<br>
+            <br>As they flicker and fight.<br>
+            <br>Drench yourself in the calm before it slips away<br>
+            <br>Serenity comes, but it does not stay.<br>
+            <br>Savor the gusts that buffet your path<br>
+            <br>Hold tight and ride the zephyr out of the past.<br>
+				  </i><p>
+				</blockquote>
+				<a href=#top><p>Appendix</p></a>
+
+				<h3 id="p3">3:45 </h3>
+				<blockquote>
+    			<p><i>In my room it's always three forty five<br>
+              <br>I can laugh or cry<br>
+              <br>but the seconds never creep by<br>
+              <br>And the face stares me down<br>
+              <br>perched up by the door. <br>
+              <br>Frozen in place  <br>
+              <br>Behind a glass plate. <br>
+              <br>I can change the batteries<br>
+              <br>Twist the gears and wind. <br>
+              <br>Subject it to the shame<br>
+              <br>And triumphs of my life.<br>
+              <br>Unchanged, all the same<br>
+              <br>The hands sit still. <br>
+              <br>And day after day<br>
+              <br>Four o'clock? Quarter till.<br>
+          </i></p>
+        </blockquote>
+				<a href=#top><p>Appendix</p></a>
+
+				<h3 id="p4">Dunes so Tall </h3>
+				<blockqoute>
+				  <p><i>Do you see dunes so tall  <br>
+              <br>Bit by bit  <br>
+              <br>They fall apart  <br>
+              <br>  
+              <br>The wind it howls  <br>
+              <br>Screams at them  <br>
+              <br>'Bout all their faults  <br>
+              <br>  
+              <br>Yet they stand and remain  <br>
+              <br>When one shelf shatters  <br>
+              <br>It moves on  <br>
+              <br>In the slopes between  <br>
+              <br>Each mound of sand  <br>
+              <br>In constant flux  <br>
+              <br>  
+              <br>Never as tall as yesterday  <br>
+              <br>But each grain lost will find its place  <br>
+              <br>Support a sister in some other way  <br>
+              <br>Peppered in plants  <br>
+              <br>Giving little animals shade  <br>
+              <br>Beneath blue skies on cloudless days<br>				  
+				  </i></p>
+				</blockqoute>
+				<a href=#top><p>Appendix</p></a>
+
+
+							
+			</main>
+			<!-- <aside id="LeftSidebar">
+				<h2>Navigation</h2>
+				<nav id="sidebarNav">
+					<button><a href="/index.html">Home</a></button>
+					<button><a href="/pesonal_proj.html">Personal Projects</a></button>
+					<button><a href="/media.html">Media</a></button>
+					<button><a href="/writing.html">Creative Writing</a></button>
+				</nav>
+			</aside> -->
+		</div>
+		<footer id="footer">
+			<ul>
+				<li><a href="https://www.youtube.com/@Moizsh10">YouTube</a></li>
+				<li><a href="https://steamcommunity.com/id/Moizsh10/">Steam</a></li>
+				<li><a href="https://github.com/Moizsh10">GitHub</a></li>
+				<li><a href="https://neocities.org/">NeoCities</a></li>
+			</ul>
+		</footer>
+	</div>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DapperCat's Corner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+  <body>
+
+	<div id="container">
+  <!--INSERT HEIGHT OF HEADER IMAGE HERE LATER-->
+	<div id="header" style="height: 200px;">
+	<!--	<img src='/DapperCats_Corner_LogoV1.png'>-->
+	</div> 
+		<nav id="navbar"> 
+			<ul>
+				<li><a href="/index.html">Home</a></li>
+				<li><a href="/personal_proj.html">Personal Projects</a></li>
+				<li><a href="/media.html">Media</a></li>
+				<li><a href="/writing.html">Creative Writing</a></li>
+			</ul>
+		</nav>
+		<div id="flex">
+			<main>
+				<h1>Meowdy!</h1>
+				<p>Welcome to my cozy little corner of the web! My name is Moiz a.k.a Moizsh10 a.k.a DapperCat10 a.k.a SnappDragon10 depending on where you know me from. For the most part this site is going to be a place for me to show off my various endeavors, projects, and attempts at different hobbies. You'll also find links to various platforms I'm present on in the footer. Besides that there might not be a whole lot, but regardless I hope you enjoy your visit!</p>
+				
+				<h2>This site is currently under construction!</h2>
+				<p> So please don't mind the mess for the time being d: </p>
+				</main>
+			<!-- <aside id="LeftSidebar">
+				<h2>Navigation</h2>
+				<nav id="sidebarNav">
+					<button><a href="/index.html">Home</a></button>
+					<button><a href="/pesonal_proj.html">Personal Projects</a></button>
+					<button><a href="/media.html">Media</a></button>
+					<button><a href="/writing.html">Creative Writing</a></button>
+				</nav>
+			</aside> -->
+		</div>
+		<footer id="footer">
+			<ul>
+				<li><a href="https://www.youtube.com/@Moizsh10">YouTube</a></li>
+				<li><a href="https://steamcommunity.com/id/Moizsh10/">Steam</a></li>
+				<li><a href="https://github.com/Moizsh10">GitHub</a></li>
+				<li><a href="https://neocities.org/">NeoCities</a></li>
+			</ul>
+		</footer>
+	</div>
+  </body>
+</html>
