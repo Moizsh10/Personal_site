@@ -172,10 +172,11 @@ main h3 {
 }
 
 #footer {
-	height: 40px;
+	height: 70px;
 	width: 100%;
 	box-sizing: border-box;
 	padding: 5px;
+	align-content: center;
 	background-color: var(--gunmetal-blue);
 }
 
@@ -192,6 +193,10 @@ main h3 {
 	padding: 5px;
 }
 
+#footer li img {
+	max-height: 40px; 
+
+}
 #thumbnail-container {
 	display: flex;
 	flex-flow: row wrap;

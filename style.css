@@ -127,6 +127,22 @@ main {
 	color: black;
 }
 
+#float-text {
+	width: 100%;
+}
+
+#float-image {
+	float: left;
+	width: 200;
+}
+
+#float-image img {
+	margin: 10px 25px 10px 10px;
+	max-width: 200px;
+	border: 5px solid var(--gunmetal-blue);
+}
+
+
 #leftSidebar {
 	order: 1;
 }
@@ -184,7 +200,7 @@ main {
 }
 
 #footer li img {
-	max-height: 40px; 
+	max-height: 50px; 
 
 }
 

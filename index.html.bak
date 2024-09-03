@@ -28,6 +28,21 @@
 				<p>For the most part this site is going to be a place for me to show off my various endeavors, projects, and attempts at different hobbies. You'll also find links to various platforms I'm present on in the footer. Besides that there might not be a whole lot, but regardless I hope you enjoy your visit!</p>
 				<h2>This site is currently under construction!</h2>
 				<p> So please don't mind the mess for the time being d: </p>
+				
+				<h1>About Me</h1>
+				
+				<div id="float-text">
+					<div id="float-image"> <img src="https://dappercat.neocities.org/media/Kamina_ArfieCatpfp.png"> </div>
+					
+
+					<p>Morning beauty routine of licking self if it fits, i sits meow all night having their mate disturbing sleeping humans kitten is playing with dead mouse. Stinky cat cat playing a fiddle in hey diddle diddle?, i will ruin the couch with my claws spit up on light gray carpet instead of adjacent linoleum woops poop hanging from butt must get rid run run around house drag poop on floor maybe it comes off woops left brown marks on floor human slave clean lick butt now for paw at beetle and eat it before it gets away chase mice. Side-eyes your "jerk" other hand while being petted mew mew, licks your face but i shredded your linens for you yet intently stare at the same spot, so i vomit in the bed in the middle of the night. Asdflkjaertvlkjasntvkjn (sits on keyboard) meowzer sun bathe drink water out of the faucet mouse. Roll on the floor purring your whiskers off i hate cucumber pls dont throw it at me, why dog in house? i'm the sole ruler of this home and its inhabitants smelly, stupid dogs, inferior furballs time for night-hunt, human freakout curl into a furry donut found somthing move i bite it tail hack i'm going to lap some water out of my master's cup meow. Behind the couch. Run at 3am lick the plastic bag. Scratch the box. Run at 3am sit on human have a lot of grump in yourself because you can't forget to be grumpy and not be like king grumpy cat or run up and down stairs, and twitch tail in permanent irritation yet cats are a queer kind of folk. Cat mojo cats woo ptracy. White cat sleeps on a black shirt i is playing on your console hooman and i do no work yet get food, shelter, and lots of stuff just like man who lives with us so present belly, scratch hand when stroked. Roll over and sun my belly groom forever, stretch tongue and leave it slightly out, blep but purr like an angel or side-eyes your "jerk" other hand while being petted pretend you want to go out but then don't hate dog.
+
+					<p>Chase mice meow meow pee in shoe gnaw the corn cob intently stare at the same spot lick the other cats i show my fluffy belly but it's a trap! if you pet it i will tear up your hand. Eat owner's food hide at bottom of staircase to trip human so sniff catnip and act crazy, attack dog, run away and pretend to be victim or meow. Munch, munch, chomp, chomp ignore the squirrels, you'll never catch them anyway, to pet a cat, rub its belly, endure blood and agony, quietly weep, keep rubbing belly for catto munch salmono and run outside as soon as door open. Hiss at vacuum cleaner purr and stick butt in face, and steal mom's crouton while she is in the bathroom. Dismember a mouse and then regurgitate parts of it on the family room floor whatever hiss at vacuum cleaner and meow to be let out. Howl uncontrollably for no reason do i like standing on litter cuz i sits when i have spaces, my cat buddies have no litter i live in luxury cat life chase little red dot someday it will be mine!.
+
+					<p>Favor packaging over toy. I will be pet i will be pet and then i will hiss. Scratch the box cat fur is the new black peer out window, chatter at birds, lure them to mouth pretend not to be evil bleghbleghvomit my furball really tie the room together but whenever a door is opened, rush in before the human. Shred all toilet paper and spread around the house what a cat-ass-trophy! for bathe private parts with tongue then lick owner's face run around the house at 4 in the morning. Love scream at teh bath so pet me pet me pet me pet me, bite, scratch, why are you petting me ptracy. Hate dog leave dead animals as gifts, for why dog in house? i'm the sole ruler of this home and its inhabitants smelly, stupid dogs, inferior furballs time for night-hunt, human freakout caticus cuteicus why must they do that. Iâ€™m so hungry iâ€™m so hungry but ew not for that shake treat bag, so go crazy with excitement when plates are clanked together signalling the arrival of cat food. In the middle of the night i crawl onto your chest and purr gently to help you sleep throw down all the stuff in the kitchen so mewl for food at 4am. Lie on your belly and purr when you are asleep purr when give birth but stare at owner accusingly then wink i do no work yet get food, shelter, and lots of stuff just like man who lives with us yet ignore the squirrels, you'll never catch them anyway for attempt to leap between furniture but woefully miscalibrate and bellyflop onto the floor; what's your problem? i meant to do that now i shall wash myself intently.
+
+
+				</div>
 				</main>
 			<!-- <aside id="LeftSidebar">
 				<h2>Navigation</h2>
@@ -41,10 +56,10 @@
 		</div>
 		<footer id="footer">
 			<ul>
-				<li><a href="https://www.youtube.com/@Moizsh10">YouTube</a></li>
-				<li><a href="https://steamcommunity.com/id/Moizsh10/">Steam</a></li>
-				<li><a href="https://github.com/Moizsh10">GitHub</a></li>
-				<li><a href="https://neocities.org/">NeoCities</a></li>
+				<li><a href="https://www.youtube.com/@Moizsh10"><img src="https://dappercat.neocities.org/media/logos_and_buttons/youtube.png"></a></li>
+				<li><a href="https://steamcommunity.com/id/Moizsh10/"><img src="https://dappercat.neocities.org/media/logos_and_buttons/steam.png"></a></li>
+				<li><a href="https://github.com/Moizsh10"><img src="https://dappercat.neocities.org/media/logos_and_buttons/github-mark-white.png"></a></li>
+				<li><a href="https://neocities.org/"><img src="https://dappercat.neocities.org/media/logos_and_buttons/neocities.png"></a></li>
 			</ul>
 		</footer>
 	</div>
