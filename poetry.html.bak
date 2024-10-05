@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>DapperCat's Corner - Poetry</title>
-  <link rel="stylesheet" href="poetry-style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
   <body>
@@ -34,8 +34,8 @@
 				  <li><a href=#p4>Dunes so Tall </a></li>
 				</ul>
 				
-<!--				<h3 id="p5"> </h3>-->
-				<h3 id="p1">Coven of Cats </h3>
+<!--				<h3 id="p5" class="poetry"> </h3>-->
+				<h3 id="p1" class="poetry">Coven of Cats </h3>
 				<blockquote>
           <p><i>My local coven of black cats.<br>
             <br>Every night you gather en masse.<br>
@@ -48,7 +48,7 @@
           <a href=#top><p>Appendix</p></a>
 
           
-				<h3 id="p2">Storm </h3>
+				<h3 id="p2" class="poetry">Storm </h3>
 				<blockquote>
 				  <p><i>Wake up and smell the rain<br>
             <br>Thick sheets that swallow all sound.<br>
@@ -65,7 +65,7 @@
 				</blockquote>
 				<a href=#top><p>Appendix</p></a>
 
-				<h3 id="p3">3:45 </h3>
+				<h3 id="p3" class="poetry">3:45 </h3>
 				<blockquote>
     			<p><i>In my room it's always three forty five<br>
               <br>I can laugh or cry<br>
@@ -86,7 +86,7 @@
         </blockquote>
 				<a href=#top><p>Appendix</p></a>
 
-				<h3 id="p4">Dunes so Tall </h3>
+				<h3 id="p4" class="poetry">Dunes so Tall </h3>
 				<blockquote>
 				  <p><i>Do you see dunes so tall  <br>
               <br>Bit by bit  <br>
@@ -128,10 +128,10 @@
 		</div>
 		<footer id="footer">
 			<ul>
-				<li><a href="https://www.youtube.com/@Moizsh10">YouTube</a></li>
-				<li><a href="https://steamcommunity.com/id/Moizsh10/">Steam</a></li>
-				<li><a href="https://github.com/Moizsh10">GitHub</a></li>
-				<li><a href="https://neocities.org/">NeoCities</a></li>
+				<li><a href="https://www.youtube.com/@Moizsh10"><img src="https://dappercat.neocities.org/media/logos_and_buttons/youtube.png"></a></li>
+				<li><a href="https://steamcommunity.com/id/Moizsh10/"><img src="https://dappercat.neocities.org/media/logos_and_buttons/steam.png"></a></li>
+				<li><a href="https://github.com/Moizsh10"><img src="https://dappercat.neocities.org/media/logos_and_buttons/github-mark-white.png"></a></li>
+				<li><a href="https://neocities.org/"><img src="https://dappercat.neocities.org/media/logos_and_buttons/neocities.png"></a></li>
 			</ul>
 		</footer>
 	</div>

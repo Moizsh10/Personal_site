@@ -40,10 +40,10 @@
 		</div>
 		<footer id="footer">
 			<ul>
-				<li><a href="https://www.youtube.com/@Moizsh10">YouTube</a></li>
-				<li><a href="https://steamcommunity.com/id/Moizsh10/">Steam</a></li>
-				<li><a href="https://github.com/Moizsh10">GitHub</a></li>
-				<li><a href="https://neocities.org/">NeoCities</a></li>
+				<li><a href="https://www.youtube.com/@Moizsh10"><img src="https://dappercat.neocities.org/media/logos_and_buttons/youtube.png"></a></li>
+				<li><a href="https://steamcommunity.com/id/Moizsh10/"><img src="https://dappercat.neocities.org/media/logos_and_buttons/steam.png"></a></li>
+				<li><a href="https://github.com/Moizsh10"><img src="https://dappercat.neocities.org/media/logos_and_buttons/github-mark-white.png"></a></li>
+				<li><a href="https://neocities.org/"><img src="https://dappercat.neocities.org/media/logos_and_buttons/neocities.png"></a></li>
 			</ul>
 		</footer>
 	</div>
