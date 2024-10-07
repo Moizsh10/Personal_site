@@ -152,6 +152,26 @@ main {
 	border: 5px solid var(--gunmetal-blue);
 }
 
+.gallery{
+	display: inline-block;
+	border: 1px solid grey;
+	margin: 20px;
+	width: 200px;
+}
+
+.gallery .description{
+	padding: 10px;
+	text-align: center;
+}
+
+.gallery:hover{
+	border: 1px solid black;
+}
+
+.gallery img {
+	width: 100%;
+	height: auto;
+}
 
 #leftSidebar {
 	order: 1;
@@ -187,33 +207,6 @@ main {
 	order: 3;
 }
 
-#footer {
-	height: 70px;
-	width: 100%;
-	box-sizing: border-box;
-	padding: 5px;
-	align-content: center;
-	background-color: var(--gunmetal-blue);
-}
-
-#footer ul {
-	display: flex;
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	justify-content: space-evenly;
-}
-
-#footer li {
-	text-decoration: none;
-	padding: 5px;
-}
-
-#footer li img {
-	max-height: 50px; 
-
-}
-
 #thumbnail-container {
 	display: flex;
 	flex-flow: row wrap;
@@ -247,6 +240,34 @@ main {
 .thumbnail img{
   max-width: 100%; 
 }
+
+#footer {
+	height: 70px;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5px;
+	align-content: center;
+	background-color: var(--gunmetal-blue);
+}
+
+#footer ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	justify-content: space-evenly;
+}
+
+#footer li {
+	text-decoration: none;
+	padding: 5px;
+}
+
+#footer li img {
+	max-height: 50px; 
+
+}
+
 /* BELOW THIS POINT IS MEDIA QUERY */
 
             /* so you wanna change the width of your page? 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
 <head>
   <title>DapperCat's Corner - Poetry</title>
   <link rel="stylesheet" href="style.css">
@@ -32,6 +33,9 @@
 				  <li><a href=#p2>Storm </a></li>
 				  <li><a href=#p3>3:45 </a></li>
 				  <li><a href=#p4>Dunes so Tall </a></li>
+				  <li><a href=#p5>Faith </a></li>
+				  
+				  
 				</ul>
 				
 <!--				<h3 id="p5" class="poetry"> </h3>-->
@@ -112,6 +116,8 @@
 				  </i></p>
 				</blockquote>
 				<a href=#top><p>Appendix</p></a>
+				
+				<h3 id="p5" class="poetry">Faith </h3>-->
 
 
 							
