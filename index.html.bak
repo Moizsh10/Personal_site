@@ -33,7 +33,7 @@
 				<h1>About Me</h1>
 				
 				<div id="float-text">
-					<div id="float-image"> <img src="https://dappercat.neocities.org/media/Kamina_ArfieCatpfp.png"> </div>
+					<div id="float-image"> <img src="https://dappercat.neocities.org/media/Kamina_ArfieCatpfp.png" style="outline-style:ridge;outline-width:10px;outline-color:#5D2E46"> </div>
 					
 
 					<p>What to say, what to say? Well, as I like to write in my bio sometimes, I've got waaaay too many interests, and not enough time to properly get into all of them.  I practice archery, though I am a bit rusty compared to my college years. But I'm slowly getting better again. I loved LEGO as a kid and still do! As a result of my interest in LEGO I also am into model kits, from any franchise really. I've got a small collection of figures, though small is probably an understatement to any person who doesn't collect. But I don't aim to collect anything in particular. It's all stuff from different shows and franchises that I like across anime, comics, video games and stuff.</p>
@@ -42,7 +42,7 @@
 
 					<p>As a result of being a nerd as a kid and continuing to be a nerd now, I pursued an education in Engineering. My degree is in Mechatronics, which is a field covering Automation, Embedded Systems, and Robotics. It's pretty darn cool, and is equal parts hands on and theoretical. Or, at least it was at my university. Thanks to it being very hands on though, I've got a lot of electrical components and a couple of microcontrollers left over from labs that I like to try and tinker with. Though I'm a touch ashamed to admit I haven't done that as much as I would like to since getting  out of school. </p>
 					
-					<p>Well, that's about the gist of stuff I think it's worth knowing about me off the bat. Thanks for readin' my little write up! ^-^</p>
+					<p>Well, that's about the gist of stuff I think it's worth knowing about me off the bat. <br>Thanks for readin' my little write up! ^-^</p>
 
 
 				</div>
