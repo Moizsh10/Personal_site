@@ -51,7 +51,7 @@ body {
 
 #container {
 	/*width of the content, is used for the % sizes in other style properties that are nested within this tag in the HTML document*/
-	max-width: 1000px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -73,7 +73,9 @@ body {
 	background-color: var(--sky-blue);
 	height: 200px;
 	background-image: var(--header-image);
-	background-size: 100%;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 #navbar {
@@ -108,9 +110,9 @@ body {
 	text-decoration: underline;
 }
 
-#navbar li:hover{
+/*#navbar li:hover{
 	background-color: blue;
-}
+}*/
 
 #flex {
 	display: flex;
