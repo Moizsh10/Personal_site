@@ -110,9 +110,9 @@ body {
 	text-decoration: underline;
 }
 
-#navbar li:hover{
+/*#navbar li:hover{
 	background-color: blue;
-}
+}*/
 
 #flex {
 	display: flex;
@@ -160,14 +160,21 @@ main {
 	max-width: 200px;
 }
 
+.gallery-container
+{
+	display: inline-flex;
+	justify-content: center;
+	align-content: center;
+}
+
 .gallery{
-	display: inline-block;
-	border: 1px solid grey;
+	/*display: inline-block;*/
 	margin: 20px;
 	width: 200px;
 }
 
 .gallery .description{
+	border: 5px ridge grey;
 	padding: 10px;
 	text-align: center;
 }
