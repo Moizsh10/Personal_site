@@ -5,6 +5,8 @@
 	
 	/*colors*/
 	--sky-blue: #8cc8e3;
+	--buff: #E3A78C; /*complement of sky blue*/
+	--burnt-sienna: #C86233;
 	--main-border-color: #4AA8D3;
 	--gunmetal-blue: #103242;
 	--navbar-text: #f0f0f0;
@@ -81,9 +83,10 @@ body {
 #navbar {
 	height: 50px;
 	width: 100%;
-	background-color: var(--gunmetal-blue);
+	background-color: var(--burnt-sienna);
 	position: sticky;
 	top: 0px;
+	border: 5px outset var(--burnt-sienna);
 
 }
 
@@ -99,6 +102,7 @@ body {
 
 #navbar li {
 	padding: 15px;
+	text-align: center;
 
 }
 
@@ -263,7 +267,7 @@ main {
 	box-sizing: border-box;
 	padding: 5px;
 	align-content: center;
-	background-color: #BDDFEF;
+	background-color: #ADD7EB;
 	/*background-color: var(--gunmetal-blue);*/
 }
 

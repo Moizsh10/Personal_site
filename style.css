@@ -263,7 +263,8 @@ main {
 	box-sizing: border-box;
 	padding: 5px;
 	align-content: center;
-	background-color: var(--gunmetal-blue);
+	background-color: #ADD7EB;
+	/*background-color: var(--gunmetal-blue);*/
 }
 
 #footer ul {
