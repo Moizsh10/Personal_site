@@ -1,0 +1,22 @@
+html,
+body,
+svg {
+	height: 100%;
+}
+
+.bg-svg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -3;
+}
+
+#about {
+  filter: drop-shadow(0 0 3px #191919);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}

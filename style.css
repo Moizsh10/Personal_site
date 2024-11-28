@@ -132,6 +132,7 @@ main {
 	order: 2;
 	color: black;
 	border: 15px groove var(--main-border-color);
+	position: relative;
 }
 
 .poetry{

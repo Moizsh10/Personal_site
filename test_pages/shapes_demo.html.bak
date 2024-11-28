@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DapperCat's Corner</title>
+  <link rel="stylesheet" href="shapes_demo.css">
+			<div class="folder-tab"></div>
+			<div class="folder-body">
+				<p>An absolutely positioned element.</p>
+			</div>
+</html>

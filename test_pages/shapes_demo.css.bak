@@ -1,0 +1,35 @@
+
+.wrapper {
+  position: relative;
+}
+
+.folder-body {
+  min-width: 70%; /*margins of main tag are 20px on all sides*/
+  min-height: 400px;
+  background-color: magenta;
+  clip-path: polygon(10% 20%,
+					30% 20%,
+					35% 10%,
+					90% 10%,
+					90% 90%,
+					10% 90%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.folder-tab {
+  width: 70%;
+  min-height: 400px;
+  background-color: darkmagenta;
+  clip-path: polygon(10% 10%,
+					40% 10%,
+					50% 25%,
+					10% 25%);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}

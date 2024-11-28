@@ -1,0 +1,15 @@
+
+<link rel="stylesheet" href="svg_demo.css">
+<div id="about">
+	<div id="bg-svg" >
+		<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+		  <!-- Example of a polygon with the default fill -->
+		  <polygon points="10,10 30,10 30,16 10,16" fill="none" stroke="black"/> <!--the tab--!>
+		  <polygon points="10,15 50,15 50,50 10,50" fill="none" stroke="black"/> <!--the body--!>
+		  <!-- Example of the same polygon shape with stroke and no fill -->
+		  <!--<polygon points="100,100 150,25 150,75 200,0" fill="none" stroke="black" />--!>
+		</svg>
+	<div id="about-title"> Title Here </div>
+	<div> Some content here hhehehehehe yea i don't really know maybe some lorum ipsum </div>
+	</div>
+</div>
