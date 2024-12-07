@@ -34,14 +34,24 @@
 
 				<h2>This site is currently under construction!</h2>	
 				<div class="shadow-wrap">
-					<div class="folder-wrapper">
+					<div class="tab-wrapper">
 						<div class="folder-tab">
 							<h1>meow-script</h1>
 						</div>
-						<div class="folder-body">
-							<p>Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum.</p>
-						</div>
 					</div>
+					<div class="body-wrapper">
+						<div class="folder-body">
+							<p>meow-script is a very simple script that adds a cat to your terminal! A more detailed explanation is that it served as a way to get my feet wet with making a command line script for linux. This script also served as a way for me to familiarize myself with the `getopt` BASH command and how it parses arguments provided to it via the command line.</p>
+							<p>Through this script I also learned about how to use BASH commands to go through the file structure of a system and locate the directory a script was being called from. Overall a simple project but one that was nonetheless a fun way to start learning more about how to try and practically code with BASH.</p>
+							<p>Plus, who wouldn't want to be able to meow on command inside the terminal?</p> 
+							<p>If you'd like to check out the project and maybe download it for yourself, you can find the repository on my GitHub by clicking the icon below or following the link below in the footer!</p><br>
+							
+							<ul style="list-style-type:none;text-align:center;">
+								<li><img src="https://dappercat.neocities.org/media/project_demos/small_meow_script_demo.gif"></li>
+								<li><a href="https://github.com/Moizsh10/meow-script" style=""><img src="https://dappercat.neocities.org/media/logos_and_buttons/github-mark-white.png" style="max-height:75px;"></a></li>
+							</ul>
+						</div>
+					</div>				
 				</div>		
 			</main>
 			<!-- <aside id="LeftSidebar">

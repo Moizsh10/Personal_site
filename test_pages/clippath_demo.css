@@ -45,7 +45,24 @@ svg {
 	min-height: 1000px;
 	width: 80%;
 	background-color: #171b25;
-	color: red;
+	color: white;
+	clip-path: polygon(0 0,
+					98% 0,
+					100% 3%,
+					100% 97%,
+					98% 100%,
+					2% 100%,			
+					0 97%);
+}
+
+.meow-body-wrapper {
+	display: inline-block;
+	position: relative;
+	margin: 0px 5% 10px 5%;
+	min-height: 700px;
+	width: 80%;
+	background-color: #171b25;
+	color: white;
 	clip-path: polygon(0 0,
 					98% 0,
 					100% 3%,
