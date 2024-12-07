@@ -49,6 +49,43 @@ body {
                 box-sizing: border-box;
             }
 
+svg {
+	height: 100%;
+	width: 100%;
+}
+
+.folder-wrapper {
+	position:relative;
+	margin: 10px;
+	min-height: 500;
+	max-width: 950;
+	background-color: pink;
+	outline: 5px solid;
+	outline-color: red;
+	clip-path: polygon(2% 0,
+			30% 0,
+			35% 10%,
+			98% 10%,
+			100% 13%,
+			100% 97%,
+			98% 100%,
+			2% 100%,			
+			0 97%,
+			0 3%);
+}
+
+.folder-tab {
+	position: absolute;
+	left: 30;
+	top: -5;
+}
+
+.folder-body {
+	position: absolute;
+	left: 30;
+	top: 90;
+}
+
 #container {
 	/*width of the content, is used for the % sizes in other style properties that are nested within this tag in the HTML document*/
 	max-width: 1200px;
@@ -132,6 +169,7 @@ main {
 	order: 2;
 	color: black;
 	border: 15px groove var(--main-border-color);
+	position: relative;
 }
 
 .poetry{

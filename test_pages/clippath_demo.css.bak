@@ -1,0 +1,53 @@
+html,
+body,
+svg {
+	height: 100%;
+	width: 100%;
+}
+
+.wrapper {
+	position:relative;
+	margin: 10px;
+	min-height: 500;
+	max-width: 950;
+	background-color: pink;
+	outline: 5px solid;
+	outline-color: red;
+	clip-path: polygon(0 0,
+			30% 0,
+			35% 10%,
+			100% 10%,
+			100% 100%,
+			0 100%);
+}
+.alt-wrapper {
+	position:relative;
+	margin: 10px;
+	min-height: 500;
+	max-width: 950;
+	background-color: pink;
+	outline: 5px solid;
+	outline-color: red;
+	clip-path: polygon(2% 0,
+			30% 0,
+			35% 10%,
+			98% 10%,
+			100% 12%,
+			100% 97%,
+			98% 100%,
+			2% 100%,			
+			0 97%,
+			0 3%);
+}
+
+.folder-tab {
+	position: absolute;
+	left: 30;
+	top: -5;
+}
+
+.folder-body {
+	position: absolute;
+	left: 30;
+	top: 90;
+}

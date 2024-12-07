@@ -2,8 +2,14 @@
 <html>
 <meta content="width=device-width, initial-scale=1" name="viewport" />
 <head>
-  <title>DapperCat's Corner - Personal Projects</title>
+  <title>DapperCat's Corner</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="clip_path.css">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
 </head>
 
   <body>
@@ -21,13 +27,32 @@
 				<li><a href="/writing.html">Creative Writing</a></li>
 			</ul>
 		</nav>
-		<div id="flex">
+		<div id="flex">	
 			<main>
 				<h1>Personal Projects</h1>
 				<p>Welcome to my cozy little corner of the web!</p>
 
-				<h2>This site is currently under construction!</h2>
-				
+				<h2>This site is currently under construction!</h2>	
+				<div class="shadow-wrap">
+					<div class="folder-wrapper">
+						<div class="folder-tab">
+							<h1>meow-script</h1>
+						</div>
+						<div class="folder-body">
+							<p>Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum.</p>
+						</div>
+					</div>
+				</div>
+				<div class="shadow-wrap">
+					<div class="folder-wrapper">
+						<div class="folder-tab">
+							<h1>meow-script</h1>
+						</div>
+						<div class="folder-body">
+							<p>Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum.</p>
+						</div>
+					</div>			
+				</div>			
 			</main>
 			<!-- <aside id="LeftSidebar">
 				<h2>Navigation</h2>

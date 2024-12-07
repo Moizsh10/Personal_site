@@ -1,0 +1,26 @@
+html,
+body,
+svg {
+	height: 100%;
+	width: 100%;
+}
+
+.wraper {
+	position: relative;
+	margin: 100px;
+	background-color: pink;
+	outline: 5px solid;
+	outline-color: red;
+}
+
+.polygon-bg {
+	position: relative;
+	border: 2px solid;
+	border-color: black;
+}
+
+.polygon-content {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
