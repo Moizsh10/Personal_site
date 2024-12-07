@@ -1,19 +1,23 @@
 
-<link rel="stylesheet" href="url(https://neocities.org/site_files/text_editor?filename=clip_path.css)">
-	<div class="folder-wrapper">
+<link rel="stylesheet" href="clippath_demo.css">
+	<!--<div class="folder-wrapper">
 		<div class="folder-tab">
 			<h1>meow-script</h1>
 		</div>
 		<div class="folder-body">
 			<p>Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum.</p>
+		</div>
+	</div>--!>
+	<div class="shadow-wrap">
+		<div class="tab-wrapper">
+			<div class="folder-tab">
+				<h1>meow-script</h1>
+			</div>
+		</div>
+		<div class="body-wrapper">
+			<div class="body-tab">
+				<p>Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum.</p>
+			</div>
 		</div>
 	</div>
 	
-	<div class="folder-wrapper">
-		<div class="folder-tab">
-			<h1>meow-script</h1>
-		</div>
-		<div class="folder-body">
-			<p>Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum.</p>
-		</div>
-	</div>

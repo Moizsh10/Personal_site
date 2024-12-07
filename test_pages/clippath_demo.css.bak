@@ -23,42 +23,57 @@ svg {
 					0 3%);
 }
 
-.meow-wrapper {
+.tab-wrapper {
 	display: inline-block;
 	position: relative;
-	margin: 10px 5% 10px 5%;
-	min-height: 700px;
+	margin: 10px 5% 0px 5%;
+	min-height: 80px;
 	width: 80%;
 	background-color: #171b25;
 	color: white;
 	clip-path: polygon(2% 0,
 					30% 0,
-					35% 10%,
-					98% 10%,
-					100% 13%,
+					40% 100%,
+					0 100%,
+					0 23%);
+}
+
+.body-wrapper {
+	display: inline-block;
+	position: relative;
+	margin: 0px 5% 10px 5%;
+	min-height: 700px;
+	width: 80%;
+	background-color: #171b25;
+	color: red;
+	clip-path: polygon(0 0,
+					98% 0,
+					100% 3%,
 					100% 97%,
 					98% 100%,
 					2% 100%,			
-					0 97%,
-					0 3%);
+					0 97%);
 }
 
 .shadow-wrap {
   filter: drop-shadow(1px 5px 5px black);
+}
 
 .folder-tab {
 	position: absolute;
-	left: 30px;
-	top: -5px;
+	left: 40px;
+	top: 7px;
+	background-color: #171b25;
 
 }
 
 .folder-body {
 	position: absolute;
-	left: 30px;
-	top: 90px;
+	left: 40px;
+	top: 15px;
 	margin-right: 10px;
 	max-width: 90%;
+	background-color: #171b25;
 }
 
 .alt-wrapper {
