@@ -45,6 +45,7 @@ svg {
 
 .shadow-wrap {
   filter: drop-shadow(1px 5px 5px black);
+}
 
 .folder-tab {
 	position: absolute;

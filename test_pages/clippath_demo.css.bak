@@ -1,15 +1,71 @@
-html,
-body,
 svg {
 	height: 100%;
 	width: 100%;
 }
 
-.wrapper {
+.folder-wrapper {
+	display: inline-block;
+	position: relative;
+	margin: 10px 5% 10px 5%;
+	min-height: 500px;
+	width: 80%;
+	background-color: #171b25;
+	color: white;
+	clip-path: polygon(2% 0,
+					30% 0,
+					35% 10%,
+					98% 10%,
+					100% 13%,
+					100% 97%,
+					98% 100%,
+					2% 100%,			
+					0 97%,
+					0 3%);
+}
+
+.meow-wrapper {
+	display: inline-block;
+	position: relative;
+	margin: 10px 5% 10px 5%;
+	min-height: 700px;
+	width: 80%;
+	background-color: #171b25;
+	color: white;
+	clip-path: polygon(2% 0,
+					30% 0,
+					35% 10%,
+					98% 10%,
+					100% 13%,
+					100% 97%,
+					98% 100%,
+					2% 100%,			
+					0 97%,
+					0 3%);
+}
+
+.shadow-wrap {
+  filter: drop-shadow(1px 5px 5px black);
+
+.folder-tab {
+	position: absolute;
+	left: 30px;
+	top: -5px;
+
+}
+
+.folder-body {
+	position: absolute;
+	left: 30px;
+	top: 90px;
+	margin-right: 10px;
+	max-width: 90%;
+}
+
+.alt-wrapper {
 	position:relative;
 	margin: 10px;
-	min-height: 500;
-	max-width: 950;
+	min-height: 500px;
+	max-width: 950px;
 	background-color: pink;
 	outline: 5px solid;
 	outline-color: red;
@@ -19,35 +75,4 @@ svg {
 			100% 10%,
 			100% 100%,
 			0 100%);
-}
-.alt-wrapper {
-	position:relative;
-	margin: 10px;
-	min-height: 500;
-	max-width: 950;
-	background-color: pink;
-	outline: 5px solid;
-	outline-color: red;
-	clip-path: polygon(2% 0,
-			30% 0,
-			35% 10%,
-			98% 10%,
-			100% 12%,
-			100% 97%,
-			98% 100%,
-			2% 100%,			
-			0 97%,
-			0 3%);
-}
-
-.folder-tab {
-	position: absolute;
-	left: 30;
-	top: -5;
-}
-
-.folder-body {
-	position: absolute;
-	left: 30;
-	top: 90;
 }
