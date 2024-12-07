@@ -39,7 +39,7 @@
 							<h1>meow-script</h1>
 						</div>
 					</div>
-					<div class="body-wrapper">
+					<div class="meow-body-wrapper">
 						<div class="folder-body">
 							<p>meow-script is a very simple script that adds a cat to your terminal! A more detailed explanation is that it served as a way to get my feet wet with making a command line script for linux. This script also served as a way for me to familiarize myself with the `getopt` BASH command and how it parses arguments provided to it via the command line.</p>
 							<p>Through this script I also learned about how to use BASH commands to go through the file structure of a system and locate the directory a script was being called from. Overall a simple project but one that was nonetheless a fun way to start learning more about how to try and practically code with BASH.</p>

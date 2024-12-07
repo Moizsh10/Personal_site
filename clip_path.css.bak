@@ -38,11 +38,11 @@ svg {
 					0 23%);
 }
 
-.body-wrapper {
+.meow-body-wrapper {
 	display: inline-block;
 	position: relative;
 	margin: 0px 5% 10px 5%;
-	min-height: 1000px;
+	min-height: 700px;
 	width: 90%;
 	background-color: #171b25;
 	color: white;
