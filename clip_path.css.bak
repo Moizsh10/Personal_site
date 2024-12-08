@@ -74,6 +74,11 @@ svg {
 	max-width: 90%;
 }
 
+.demo{
+ 	  width: 540px;
+	  height: auto; 
+}
+
 .alt-wrapper {
 	position:relative;
 	margin: 10px;
@@ -90,6 +95,7 @@ svg {
 			0 100%);
 }
 
+
 /* BELOW THIS POINT IS MEDIA QUERY */
 
             /* so you wanna change the width of your page? 
@@ -102,9 +108,12 @@ svg {
             @media screen and (max-width: 900px) {
 				
 				.demo{
-				  width: 250px;
+				  width: 300px;
 				  height: auto;
-				  margin-right: 100px;
+				  position: absolute;
+				  left: -7%;
+				  right: 30%;
+				  top:99%;
 				}
 				
 				.tab-wrapper {

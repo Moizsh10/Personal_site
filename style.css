@@ -297,7 +297,7 @@ main {
 
             @media screen and (max-width: 800px) {
                 #flex {
-                    flex-wrap: wrap;
+                    flex-wrap: nowrap;
                 }
 				
 
@@ -322,7 +322,7 @@ main {
                 }
                 
                 #navbar {
-                    flex-wrap: wrap;
+                    /*flex-wrap: wrap;*/
                     width: 100%;
                     height: 100px;
                 }
