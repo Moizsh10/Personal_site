@@ -1,23 +1,76 @@
+<!DOCTYPE html>
+<html>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<head>
+  <title>DapperCat's Corner</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="clippath_demo.css">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+</head>
 
-<link rel="stylesheet" href="clippath_demo.css">
-	<!--<div class="folder-wrapper">
-		<div class="folder-tab">
-			<h1>meow-script</h1>
+  <body>
+
+	<div id="container">
+  <!--INSERT HEIGHT OF HEADER IMAGE HERE LATER-->
+	<div id="header" style="height: 200px;">
+	<!--	<img src='/DapperCats_Corner_LogoV1.png'>-->
+	</div> 
+		<nav id="navbar"> 
+			<ul>
+				<li><a href="/index.html">Home</a></li>
+				<li><a href="/personal_proj.html">Personal Projects</a></li>
+				<li><a href="/media.html">Media</a></li>
+				<li><a href="/writing.html">Creative Writing</a></li>
+			</ul>
+		</nav>
+		<div id="flex">	
+			<main>
+				<h1>Personal Projects</h1>
+				<p>Here are a collection of my personal projects. Most of them will probably be software related, but not exclusively! They're all different things I've dabbled in. If they are a program I'll try and include a link to where you can find it if you wanted to download the program yourself!</p>
+
+				<div class="shadow-wrap">
+					<div class="tab-wrapper">
+						<div class="folder-tab">
+							<h1>meow-script</h1>
+						</div>
+					</div>
+					<div class="meow-body-wrapper">
+						<div class="folder-body">
+							<p>meow-script is a very simple script that adds a cat to your terminal! A more detailed explanation is that it served as a way to get my feet wet with making a command line script for linux. This script also served as a way for me to familiarize myself with the `getopt` BASH command and how it parses arguments provided to it via the command line.</p>
+							<p>Through this script I also learned about how to use BASH commands to go through the file structure of a system and locate the directory a script was being called from. Overall a simple project but one that was nonetheless a fun way to start learning more about how to try and practically code with BASH.</p>
+							<p>Plus, who wouldn't want to be able to meow on command inside the terminal?</p> 
+							<p>If you'd like to check out the project and maybe download it for yourself, you can find the repository on my GitHub by clicking the icon below or following the link below in the footer!</p><br>
+							
+							<ul style="list-style-type:none;text-align:center;">
+								<li><img src="https://dappercat.neocities.org/media/project_demos/small_meow_script_demo.gif"></li>
+								<li><a href="https://github.com/Moizsh10/meow-script" style=""><img src="https://dappercat.neocities.org/media/logos_and_buttons/github-mark-white.png" style="max-height:75px;"></a></li>
+							</ul>
+						</div>
+					</div>				
+				</div>		
+			</main>
+			<!-- <aside id="LeftSidebar">
+				<h2>Navigation</h2>
+				<nav id="sidebarNav">
+					<button><a href="/index.html">Home</a></button>
+					<button><a href="/pesonal_proj.html">Personal Projects</a></button>
+					<button><a href="/media.html">Media</a></button>
+					<button><a href="/writing.html">Creative Writing</a></button>
+				</nav>
+			</aside> -->
 		</div>
-		<div class="folder-body">
-			<p>Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum.</p>
-		</div>
-	</div>--!>
-	<div class="shadow-wrap">
-		<div class="tab-wrapper">
-			<div class="folder-tab">
-				<h1>meow-script</h1>
-			</div>
-		</div>
-		<div class="body-wrapper">
-			<div class="body-tab">
-				<p>Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum.</p>
-			</div>
-		</div>
+		<footer id="footer">
+			<ul>
+				<li><a href="https://www.youtube.com/@Moizsh10"><img src="https://dappercat.neocities.org/media/logos_and_buttons/youtube.png"></a></li>
+				<li><a href="https://steamcommunity.com/id/Moizsh10/"><img src="https://dappercat.neocities.org/media/logos_and_buttons/steam.png"></a></li>
+				<li><a href="https://github.com/Moizsh10"><img src="https://dappercat.neocities.org/media/logos_and_buttons/github-mark-white.png"></a></li>
+				<li><a href="https://neocities.org/"><img src="https://dappercat.neocities.org/media/logos_and_buttons/neocities.png"></a></li>
+			</ul>
+		</footer>
 	</div>
-	
+  </body>
+</html>

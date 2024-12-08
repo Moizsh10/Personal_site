@@ -28,7 +28,7 @@ svg {
 	position: relative;
 	margin: 10px 5% 0px 5%;
 	min-height: 80px;
-	width: 80%;
+	min-width: 90%;
 	background-color: #171b25;
 	color: white;
 	clip-path: polygon(2% 0,
@@ -38,29 +38,12 @@ svg {
 					0 23%);
 }
 
-.body-wrapper {
-	display: inline-block;
-	position: relative;
-	margin: 0px 5% 10px 5%;
-	min-height: 1000px;
-	width: 80%;
-	background-color: #171b25;
-	color: white;
-	clip-path: polygon(0 0,
-					98% 0,
-					100% 3%,
-					100% 97%,
-					98% 100%,
-					2% 100%,			
-					0 97%);
-}
-
 .meow-body-wrapper {
 	display: inline-block;
 	position: relative;
 	margin: 0px 5% 10px 5%;
-	min-height: 700px;
-	width: 80%;
+	min-height: 750px;
+	min-width: 90%;
 	background-color: #171b25;
 	color: white;
 	clip-path: polygon(0 0,
@@ -78,19 +61,17 @@ svg {
 
 .folder-tab {
 	position: absolute;
-	left: 40px;
-	top: 7px;
-	background-color: #171b25;
+	left: 30px;
+	top: -5px;
 
 }
 
 .folder-body {
 	position: absolute;
-	left: 40px;
-	top: 15px;
+	left: 30px;
+	top: 10px;
 	margin-right: 10px;
 	max-width: 90%;
-	background-color: #171b25;
 }
 
 .alt-wrapper {
@@ -108,3 +89,46 @@ svg {
 			100% 100%,
 			0 100%);
 }
+
+/* BELOW THIS POINT IS MEDIA QUERY */
+
+            /* so you wanna change the width of your page? 
+    by default, the container width is 1000px.
+    in order to keep things responsive, take your new height,
+    and then subtrack it by 100. use this new number as the 
+    "max-width" value below
+    */
+
+            @media screen and (max-width: 800px) {
+                .meow-body-wrapper {
+					display: inline-block;
+					position: relative;
+					margin: 0px 5% 10px 5%;
+					min-height: 950px;
+					min-width: 90%;
+					background-color: #171b25;
+					color: white;
+					clip-path: polygon(0 0,
+									98% 0,
+									100% 1%,
+									100% 99%,
+									97% 100%,
+									3% 100%,			
+									0 99%);
+				}
+				
+				.tab-wrapper {
+					display: inline-block;
+					position: relative;
+					margin: 10px 5% 0px 5%;
+					min-height: 80px;
+					min-width: 90%;
+					background-color: #171b25;
+					color: white;
+					clip-path: polygon(2% 0,
+									60% 0,
+									70% 100%,
+									0 100%,
+									0 13%);
+				}
+            }

@@ -30,9 +30,8 @@
 		<div id="flex">	
 			<main>
 				<h1>Personal Projects</h1>
-				<p>Welcome to my cozy little corner of the web!</p>
+				<p>Here are a collection of my personal projects. Most of them will probably be software related, but not exclusively! They're all different things I've dabbled in. If they are a program I'll try and include a link to where you can find it if you wanted to download the program yourself!</p>
 
-				<h2>This site is currently under construction!</h2>	
 				<div class="shadow-wrap">
 					<div class="tab-wrapper">
 						<div class="folder-tab">

@@ -42,7 +42,7 @@ svg {
 	display: inline-block;
 	position: relative;
 	margin: 0px 5% 10px 5%;
-	min-height: 700px;
+	min-height: 750px;
 	width: 90%;
 	background-color: #171b25;
 	color: white;
@@ -89,3 +89,62 @@ svg {
 			100% 100%,
 			0 100%);
 }
+
+/* BELOW THIS POINT IS MEDIA QUERY */
+
+            /* so you wanna change the width of your page? 
+    by default, the container width is 1000px.
+    in order to keep things responsive, take your new height,
+    and then subtrack it by 100. use this new number as the 
+    "max-width" value below
+    */
+
+            @media screen and (max-width: 900px) {
+				
+				.demo{
+				  width: 250px;
+				  height: auto;
+				  margin-right: 100px;
+				}
+				
+				.tab-wrapper {
+					display: inline-block;
+					position: relative;
+					margin: 10px 5% 0px 5%;
+					min-height: 80px;
+					min-width: 90%;
+					background-color: #171b25;
+					color: white;
+					clip-path: polygon(2% 0,
+									70% 0,
+									80% 100%,
+									0 100%,
+									0 13%);
+				}
+
+                .meow-body-wrapper {
+					display: inline-block;
+					position: relative;
+					margin: 0px 5% 10px 5%;
+					min-height: 1075px;
+					min-width: 90%;
+					background-color: #171b25;
+					color: white;
+					clip-path: polygon(0 0,
+									98% 0,
+									100% 1%,
+									100% 99%,
+									97% 100%,
+									3% 100%,			
+									0 99%);
+				}
+				
+				.folder-body {
+					position: absolute;
+					left: 30px;
+					top: 10px;
+					margin-right: 10px;
+					max-width: 80%;
+				}
+
+            }
