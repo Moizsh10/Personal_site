@@ -46,7 +46,7 @@
 							<p>If you'd like to check out the project and maybe download it for yourself, you can find the repository on my GitHub by clicking the icon below or following the link below in the footer!</p><br>
 							
 							<ul style="list-style-type:none;text-align:center;">
-								<li><img class="demo" src="https://dappercat.neocities.org/media/project_demos/meow_script_demoV2_5.gif"></li>
+								<li><img class="demo" src="https://dappercat.neocities.org/media/project_demos/meow_script_demoV2_5.gif" alt="GIF of a demo of the script showing the different available commands"></li>
 								<li><a href="https://github.com/Moizsh10/meow-script" style=""><img src="https://dappercat.neocities.org/media/logos_and_buttons/github-mark-white.png" style="max-height:75px;"></a></li>
 							</ul>
 						</div>

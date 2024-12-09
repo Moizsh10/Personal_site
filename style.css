@@ -53,6 +53,8 @@ body {
 	/*width of the content, is used for the % sizes in other style properties that are nested within this tag in the HTML document*/
 	max-width: 1200px;
 	margin: 0 auto;
+	position: relative;
+	z-index: 1;
 }
 
 #container a {
@@ -84,6 +86,7 @@ body {
 	background-color: var(--gunmetal-blue);
 	position: sticky;
 	top: 0px;
+	z-index: 2;
 
 }
 
@@ -110,10 +113,6 @@ body {
 	text-decoration: underline;
 }
 
-/*#navbar li:hover{
-	background-color: blue;
-}*/
-
 #flex {
 	display: flex;
 }
@@ -133,18 +132,7 @@ main {
 	color: black;
 	border: 15px groove var(--main-border-color);
 	position: relative;
-}
-
-.poetry{
-	width: 100%;
-	height: 50px;
-	align-content: center;
-	padding: 5px 5px 5px 20px;
-	color: white;
-	background-color: var(--gunmetal-blue);
-	/*text-decoration: underline;*/
-	border: 10px outset var(--gunmetal-blue);
-	
+	z-index: 1;
 }
 
 #float-text {
@@ -161,34 +149,6 @@ main {
 	max-width: 200px;
 }
 
-.gallery-container
-{
-	display: inline-flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: center;
-}
-
-.gallery{
-	/*display: inline-block;*/
-	margin: 20px;
-	width: 200px;
-}
-
-.gallery .description{
-	border: 5px ridge grey;
-	padding: 10px;
-	text-align: center;
-}
-
-.gallery:hover{
-	border: 1px solid black;
-}
-
-.gallery img {
-	width: 100%;
-	height: auto;
-}
 
 #leftSidebar {
 	order: 1;
@@ -264,8 +224,7 @@ main {
 	box-sizing: border-box;
 	padding: 5px;
 	align-content: center;
-	background-color: #ADD7EB;
-	/*background-color: var(--gunmetal-blue);*/
+	background-color: var(--gunmetal-blue);
 }
 
 #footer ul {
@@ -322,7 +281,7 @@ main {
                 }
                 
                 #navbar {
-                    /*flex-wrap: wrap;*/
+                    flex-wrap: wrap;
                     width: 100%;
                     height: 100px;
                 }
