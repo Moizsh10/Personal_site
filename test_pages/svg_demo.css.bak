@@ -5,22 +5,39 @@ svg {
 	width: 100%;
 }
 
-.wraper {
+.proj-container{
 	position: relative;
-	margin: 100px;
-	background-color: pink;
-	outline: 5px red;
-	outline-color: black;
+	/*background-color: green;*/
+	display: flex;
+	flex-direction: column;
+	height: 1000px;
+	margin-bottom: 5%;
 }
+
 
 .polygon-bg {
-	position: relative;
-	border: 2px solid;
-	border-color: black;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	width: 900px;
+	z-index:-3;
 }
 
-.polygon-content {
-	position: absolute;
-	left: 0;
-	top: 0;
+
+.polygon-title {
+	position: relative;
+	text-align: center;
+	width: 300px;
+	height: 50px;
+	margin: 20px 30px 10px 8px;
+	font-size: 25px;
+}
+
+.polygon-body {
+	width: 600px;
+	margin: 10px 15px 10px 50px;
+	padding: 0px;
+	overflow:hidden;
 }
