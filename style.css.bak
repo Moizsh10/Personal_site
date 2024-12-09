@@ -149,35 +149,6 @@ main {
 	max-width: 200px;
 }
 
-.gallery-container
-{
-	display: inline-flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-content: center;
-}
-
-.gallery{
-	/*display: inline-block;*/
-	margin: 20px;
-	width: 200px;
-}
-
-.gallery .description{
-	border: 5px ridge grey;
-	padding: 10px;
-	text-align: center;
-}
-
-.gallery:hover{
-	border: 1px solid black;
-}
-
-.gallery img {
-	width: 100%;
-	height: auto;
-}
-
 #leftSidebar {
 	order: 1;
 }
@@ -285,6 +256,7 @@ main {
             @media screen and (max-width: 800px) {
                 #flex {
                     flex-wrap: nowrap;
+					flex-direction: column;
                 }
 				
 

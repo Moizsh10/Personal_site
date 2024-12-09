@@ -149,41 +149,6 @@ main {
 	max-width: 200px;
 }
 
-
-#leftSidebar {
-	order: 1;
-}
-
-#leftSidebar h2{
-	margin: 0;
-	padding: 0;
-}
-
-#sidebarNav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	width: 110px;
-}
-
-#sidebarNav li {	
-	padding: 5px;
-	margin: 5px 0;
-	background-color: var(--gunmetal-blue);
-}
-
-#sidebarNav li a {
-	text-decoration: none;
-}
-
-#sidebarNav li a:hover{
-	text-decoration: underline;
-}
-
-#rightSidebar {
-	order: 3;
-}
-
 #thumbnail-container {
 	display: flex;
 	flex-flow: row wrap;
@@ -257,6 +222,7 @@ main {
             @media screen and (max-width: 800px) {
                 #flex {
                     flex-wrap: nowrap;
+					flex-direction: column;
                 }
 				
 
