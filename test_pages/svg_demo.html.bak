@@ -14,7 +14,7 @@
 	
 	<div class="proj-container">
 		<div class="polygon-bg">
-			<svg version="1.1" viewBox="0 0 600 600">
+			<svg version="1.1" viewBox="0 0 500 600">
 			  <polygon points="5,0 150,0 175,30 495,30 500,35 500,594 495,600 5,600 0,594 0,5" fill="red" "/> <!--folder shape
 			  <!-- ratio is    1,0 30,0  35,6   99,6   100,7  100,99  99,100  1,100 0,99  0,1--!>
 		</svg>
@@ -23,5 +23,7 @@
 		<div class="polygon-body">Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum. Some content here hhehehehehe yea i don't really know maybe some lorum ipsum.</div>S
 
 	</div>
+	
+	<script src="svg_resize.js"></script>
 	
 </html>

@@ -1,0 +1,7 @@
+var graphic_svg = document.querySelector("polygon");
+var graphic_width;
+var current_width;
+
+window.onresize = function(){
+	current_width = window.innerWidth;
+}
