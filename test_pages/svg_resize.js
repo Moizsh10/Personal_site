@@ -5,11 +5,13 @@ const viewbox_text = document.getElementById("viewbox_text");
 const point_array = document.getElementById("point_array");
 var svg_new_viewbox;
 var viewbox_width = 500;
+var viewbox_height = 600;
 var current_width;
-var polygon_ratio_array = new Array(1,1,.3,1,.35,1,.99,1,1,1,1,1,0.99,1,0.01,1,0,1,0,1);
-/*ratio as percentages for the array is 1,0 30,0  35,6   99,6   100,7  100,99  99,100  1,100 0,99  0,1*/
-/*var new_polygon_points = "5,0 150,0 175,30 395,30 400,35 400,594 395,600 5,600 0,594 0,5";*/
+var polygon_ratio_array = new Array(0.01,0,0.3,0,.35,0.05,0.99,0.05,1,0.058,1,0.99,0.99,1,0.01,1,0,0.99,0,0.0083);
+/*ratio as percentages for the array is 1,0 30,0  35,5   99,5   100,5.8  100,99  99,100  1,100 0,99  0,0.83*/
+/*var test_polygon_points = "5,0 150,0 175,30 395,30 400,35 400,594 395,600 5,600 0,594 0,5";*/
 var new_polygon_points = "";
+var set_polygon_points = "";
 
 window.onresize = function(){
 	window.addEventListener("resize", graphicResize);
@@ -18,36 +20,47 @@ window.onresize = function(){
 
 function graphicResize(){
 	/*Setup the new svg viewbox*/
-	new_polygon_points = "";
 	current_width = window.innerWidth;
-	var new_width = Math.round(current_width * 0.9);
-	var new_height = Math.round(new_width * 1.83);
-	var body_width = new_width + "px";
-	svg_new_viewbox = "0 0 " + new_width + " " + new_height;
-	
-	/*Add new points to a string using the polygon points percentages*/
-	for (let i = 0; i < polygon_ratio_array.length; i++) {
-		var temp_num = Math.round(polygon_ratio_array[i] * new_width);
-		if (i%2 == 0){
-			new_polygon_points += temp_num +",";
-		}
-		else if (i >= polygon_ratio_array.length){
-			new_polygon_points += temp_num;
-		}
-		else {
-			new_polygon_points += temp_num + " ";
-		}
+	var new_width = Math.round(current_width * 0.55);
+	var body_width = (current_width * 0.88) + "px";
+
+	// make sure the current width is smaller than 
+	if (current_width < 900){	
+			/*Add new points to a string using the polygon points percentages*/
+			for (let i = 0; i < polygon_ratio_array.length; i++) {
+				// for the x-values
+				if (i%2 == 0){
+					var temp_num = Math.round(polygon_ratio_array[i] * new_width);
+					new_polygon_points += temp_num +",";
+				}
+				// for final y-value
+				else if (i >= polygon_ratio_array.length){
+					var temp_num = Math.round(polygon_ratio_array[i] * viewbox_height);
+					new_polygon_points += temp_num;
+				}
+				// for the y-values
+				else {
+					var temp_num = Math.round(polygon_ratio_array[i] * viewbox_height);
+					new_polygon_points += temp_num + " ";
+				}
+			}
+			
+			/* change width of the polygon-body of text*/
+			for (let i = 0; i < polygon_body.length; i++) {
+					polygon_body[i].style.width = body_width;
+			}
 	}
-	
-	/* change width of the polygon-body of text*/
-	for (let i = 0; i < polygon_body.length; i++) {
-			polygon_body[i].style.width = body_width;
+	else{
+		new_polygon_points = "5,0 150,0 175,30 495,30 500,35 500,594 495,600 5,600 0,594 0,5";
 	}
 	
 	/*Set attributes for HTML elements*/
 	/*svg_viewbox.setAttribute("viewBox", svg_new_viewbox);*/
 	
-	svg_graphic.setAttribute("points", new_polygon_points);
+	set_polygon_points = new_polygon_points;
+	new_polygon_points = "";
+	
+	svg_graphic.setAttribute("points", set_polygon_points);
 	svg_graphic.setAttribute("style", "fill:pink;");
 	
 	
@@ -55,8 +68,7 @@ function graphicResize(){
 	svg_graphic.setAttribute("points", new_polygon_points);
 	svg_graphic.setAttribute("style", "fill:pink;");*/
 	
-	viewbox_text.textContent = svg_new_viewbox;
-	point_array.textContent = new_polygon_points;
+	point_array.textContent = set_polygon_points;
 	console.log("resize ran");
 	
 	
