@@ -5,6 +5,10 @@ svg {
 	width: 100%;
 }
 
+polygon {
+	height: 100%;
+}
+
 .proj-container{
 	position: relative;
 	/*background-color: green;*/
@@ -22,6 +26,7 @@ svg {
 	right: 0px;
 	bottom: 0px;
 	width: 900px;
+	height: 100%;
 	z-index:-3;
 }
 
@@ -36,7 +41,7 @@ svg {
 }
 
 .polygon-body {
-	width: 800px;
+	max-width: 800px;
 	margin: 10px 15px 10px 50px;
 	padding: 0px;
 	overflow:hidden;
