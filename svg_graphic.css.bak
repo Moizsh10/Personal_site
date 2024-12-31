@@ -50,6 +50,6 @@ polygon {
 }
 
 .demo{
- 	  width: 640px;
+ 	  width: 540px;
 	  height: auto; 
 }
