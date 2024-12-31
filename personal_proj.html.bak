@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<meta content="width=device-width, initial-scale=1" name="viewport" />
+<meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
 <head>
   <title>DapperCat's Corner</title>
   <link rel="stylesheet" href="style.css">
@@ -55,15 +55,6 @@
 
 				
 			</main>
-			<!-- <aside id="LeftSidebar">
-				<h2>Navigation</h2>
-				<nav id="sidebarNav">
-					<button><a href="/index.html">Home</a></button>
-					<button><a href="/pesonal_proj.html">Personal Projects</a></button>
-					<button><a href="/media.html">Media</a></button>
-					<button><a href="/writing.html">Creative Writing</a></button>
-				</nav>
-			</aside> -->
 		</div>
 		<footer id="footer">
 			<ul>

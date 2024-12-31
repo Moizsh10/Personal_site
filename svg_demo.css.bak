@@ -48,8 +48,3 @@ polygon {
 	padding: 0px;
 	overflow:hidden;
 }
-
-.demo{
- 	  width: 540px;
-	  height: auto; 
-}

@@ -25,13 +25,14 @@ polygon {
 	left: 0px;
 	right: 0px;
 	bottom: 0px;
-	max-width: 900px;
+	width: 900px;
 	height: 100%;
 	z-index:-3;
 }
 
 
 .polygon-title {
+	color:white;
 	position: relative;
 	text-align: center;
 	width: 300px;
@@ -41,7 +42,8 @@ polygon {
 }
 
 .polygon-body {
-	width: 800px;
+	color: white;
+	max-width: 800px;
 	margin: 10px 15px 10px 50px;
 	padding: 0px;
 	overflow:hidden;

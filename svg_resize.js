@@ -1,9 +1,6 @@
 const svg_graphic = document.getElementById("svg_graphic");
 const polygon_body = document.getElementsByClassName("polygon-body");
-const svg_viewbox = document.getElementById("svg_viewbox");
-const viewbox_text = document.getElementById("viewbox_text");
 const point_array = document.getElementById("point_array");
-var svg_new_viewbox;
 var viewbox_width = 500;
 var viewbox_height = 600;
 var current_width;
@@ -22,7 +19,7 @@ function graphicResize(){
 	/*Setup the new svg viewbox*/
 	current_width = window.innerWidth;
 	var new_width = Math.round(current_width * 0.55);
-	var body_width = (current_width * 0.88) + "px";
+	var body_width = ((current_width * 0.88)-10) + "px";
 
 	// make sure the current width is smaller than 
 	if (current_width < 900){	
@@ -53,14 +50,19 @@ function graphicResize(){
 	else{
 		new_polygon_points = "5,0 150,0 175,30 495,30 500,35 500,594 495,600 5,600 0,594 0,5";
 		body_width = "800px";
+		/* change width of the polygon-body of text*/
+		for (let i = 0; i < polygon_body.length; i++) {
+				polygon_body[i].style.width = body_width;	
+		}
 	}
 	
 	/*Set attributes for HTML elements*/
 	set_polygon_points = new_polygon_points;
 	new_polygon_points = "";
 	svg_graphic.setAttribute("points", set_polygon_points);
-	point_array.textContent = set_polygon_points;
+		
 	//svg_graphic.setAttribute("style", "fill:pink;");
+
 	
 	console.log("resize ran");
 	
