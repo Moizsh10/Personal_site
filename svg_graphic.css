@@ -16,6 +16,7 @@ polygon {
 	flex-direction: column;
 	height: 1000px;
 	margin-bottom: 5%;
+	
 }
 
 
@@ -52,4 +53,9 @@ polygon {
 .demo{
  	  width: 640px;
 	  height: auto; 
+	  margin: 0 50px 0 25px;
+}
+
+.shadow-wrap {
+  filter: drop-shadow(1px 5px 5px black);
 }
