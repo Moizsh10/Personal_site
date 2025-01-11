@@ -36,7 +36,7 @@
 					<div class="proj-container">
 						<div class="polygon-bg">
 							<svg version="1.1" viewBox="0 0 500 600">
-							<polygon id="svg_graphic" points="5,0 150,0 175,30 495,30 500,35 500,545 495,550 5,550 0,545 0,5" fill="#171b25"/> <!--folder shape --!>
+							  <polygon id="svg_graphic" points="5,0 150,0 175,30 495,30 500,35 500,545 495,550 5,550 0,545 0,5" fill="#171b25"/> <!--folder shape
 							<!--ratio is in %  1,0 30,0  35,6   99,6   100,7  100,99  99,100  1,100 0,99  0,1--!>
 						</svg>
 						</div>
