@@ -226,6 +226,7 @@ main {
 				#container{
 					padding-top: 28.13%;
 					padding-bottom: 28.13%;
+					min-width: 900px;
 				}
 				
                 #flex {
