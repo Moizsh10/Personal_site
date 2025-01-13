@@ -10,10 +10,13 @@ var polygon_ratio_array = new Array(0.01,0,0.3,0,0.35,0.05,0.99,0.05,1,0.058,1,0
 var new_polygon_points = "";
 var set_polygon_points = "";
 
-window.onload = function(){graphicResize);
+/*window.onload = function(){
+	if(window.innerWidth < 800){
+		graphicResize;
+	}
+}*/
 window.onresize = function(){
 	window.addEventListener("resize", graphicResize);
-
 }
 
 function graphicResize(){
