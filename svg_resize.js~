@@ -4,12 +4,13 @@ const point_array = document.getElementById("point_array");
 var viewbox_width = 500;
 var viewbox_height = 600;
 var current_width;
-var polygon_ratio_array = new Array(0.01,0,0.3,0,.35,0.05,0.99,0.05,1,0.058,1,0.99,0.99,1,0.01,1,0,0.99,0,0.0083);
+var polygon_ratio_array = new Array(0.01,0,0.3,0,0.35,0.05,0.99,0.05,1,0.058,1,0.99,0.99,1,0.01,1,0,0.99,0,0.0083);
 /*ratio as percentages for the array is 1,0 30,0  35,5   99,5   100,5.8  100,99  99,100  1,100 0,99  0,0.83*/
 /*var test_polygon_points = "5,0 150,0 175,30 395,30 400,35 400,594 395,600 5,600 0,594 0,5";*/
 var new_polygon_points = "";
 var set_polygon_points = "";
 
+window.onload = function(){graphicResize);
 window.onresize = function(){
 	window.addEventListener("resize", graphicResize);
 

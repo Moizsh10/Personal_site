@@ -71,7 +71,7 @@ polygon {
 
 @media screen and (max-width: 800px) {
 	polygon {
-		points="5,0 150,0 175,30 495,30 500,35 500,545 495,550 5,550 0,545 0,5"
+		points="5,0 150,0 175,30 495,30 500,35 500,545 495,550 5,550 0,545 0,5";
 	}
 	.proj-container {
 		width: 750px;
@@ -81,5 +81,6 @@ polygon {
 	}
 	.polygon-title {
 		width: 230px;
-		margin-top: 30px;
+		margin-top: 40px;
+  }
 }
