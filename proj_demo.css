@@ -20,9 +20,7 @@
 	list-style-type: none;
 }
 .demo-gif {
-	margin: 0 auto;
 	max-height: 300px;
-	width: auto;
 }
 .shadow-wrap {
   filter: drop-shadow(1px 5px 5px black);

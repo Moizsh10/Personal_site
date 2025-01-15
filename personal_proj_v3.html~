@@ -30,7 +30,9 @@
 		<div id="flex">	
 			<main>
 				<h1>Personal Projects</h1>
-				<p>Here are a collection of my personal projects. Most of them will probably be software related, but not exclusively! They're all different things I've dabbled in. If they are a program I'll try and include a link to where you can find it if you wanted to download the program yourself!</p>			
+				<p>Here are a collection of my personal projects. Most of them will probably be software related, but not exclusively! They're all different things I've dabbled in. If they are a program I'll try and include a link to where you can find it if you wanted to download the program yourself!</p>		
+				<br>
+
 				<div class="demo-container">
 					<img class="demo-gif" src="https://dappercat.neocities.org/media/project_demos/meow_script_demoV2_5.gif">
 				</div>
