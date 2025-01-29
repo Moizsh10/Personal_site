@@ -1,6 +1,7 @@
 .demo-container{
-	width: 50%; 
-	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5px;
 }
 
 .demo-body{     

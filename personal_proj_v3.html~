@@ -33,6 +33,7 @@
 				<p>Here are a collection of my personal projects. Most of them will probably be software related, but not exclusively! They're all different things I've dabbled in. If they are a program I'll try and include a link to where you can find it if you wanted to download the program yourself!</p>		
 				<br>
 
+			<div class="shadow-wrap">
 				<div class="demo-container">
 					<img class="demo-gif" src="https://dappercat.neocities.org/media/project_demos/meow_script_demoV2_5.gif">
 				</div>
@@ -46,6 +47,7 @@
 					<li><a href="https://github.com/Moizsh10/meow-script" style=""><img src="https://dappercat.neocities.org/media/logos_and_buttons/github-mark-white.png" style="max-height:75px;"></a></li>
 					</ul>
 				</div>
+			</div>
 			</main>
 		</div>
 		<footer id="footer">
@@ -58,5 +60,4 @@
 		</footer>
 	</div>
   </body>
-  <script src="svg_resize.js"></script>
 </html>
