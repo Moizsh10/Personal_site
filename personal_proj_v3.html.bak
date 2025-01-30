@@ -44,7 +44,7 @@
 					<p>Plus, who wouldn't want to be able to meow on command inside the terminal?</p> 
 					<p>If you'd like to check out the project and maybe download it for yourself, you can find the repository on my GitHub by clicking the icon below or following the link below in the footer!</p><br>
 					<div class="github-button">				
-					<a href="https://github.com/Moizsh10/meow-script"><img src="https://dappercat.neocities.org/media/logos_and_buttons/github-mark-white.png" style="max-height:75px;"></a>
+					<a href="https://github.com/Moizsh10/meow-script" style=""><img src="https://dappercat.neocities.org/media/logos_and_buttons/github-mark-white.png" style="max-height:75px;"></a>
 					</div>
 				</div>
 			</div>

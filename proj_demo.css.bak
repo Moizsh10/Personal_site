@@ -19,7 +19,6 @@
 .github-button {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 5px;
 }
 .demo-gif {
 	max-height: 300px;
