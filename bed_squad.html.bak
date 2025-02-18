@@ -2,9 +2,9 @@
 <html>
 <meta content="width=device-width, initial-scale=1" name="viewport" />
 <head>
-  <title>DapperCat's Corner</title>
+  <title>Bed Squad</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="gallery.css>
+  <link rel="stylesheet" href="gallery.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
   <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -33,6 +33,8 @@
 				<h1>The Bed Squad</h1>
 				
 				<p>My collection of plush toys and stuffed animals that I affectionately call: The Bed Squad. On top of providing emotional support, they are in charge of my room anytime I'm away from home. They perform their duties with distinction and honor!</p>
+				
+				<img id="gallery-header" src="https://dappercat.neocities.org/media/bed_squad/family_photo.avif" alt="photo of plushies on a bed" >
 				
 				<div class="gallery-container">
 					<div class="gallery">

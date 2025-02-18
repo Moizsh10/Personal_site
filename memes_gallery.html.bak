@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<head>
+  <title>Meme Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="gallery.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+</head>
+
+  <body>
+
+	<div id="container">
+  <!--INSERT HEIGHT OF HEADER IMAGE HERE LATER-->
+	<div id="header" style="height: 200px;">
+	<!--	<img src='/DapperCats_Corner_LogoV1.png'>-->
+	</div> 
+		<nav id="navbar"> 
+			<ul>
+				<li><a href="/index.html">Home</a></li>
+				<li><a href="/personal_proj.html">Personal Projects</a></li>
+				<li><a href="/media.html">Media</a></li>
+				<li><a href="/writing.html">Creative Writing</a></li>
+			</ul>
+		</nav>
+		<div id="flex">
+			<main>
+				<h1>Meme Gallery</h1>
+				
+				<p>I make memes sometimes. That's all!</p>
+							
+				<div class="gallery-container">
+					<div class="gallery">
+						<a href="https://dappercat.neocities.org/media/memes/Beefcake_Roku.avif" data-fancybox="gallery">
+							<img src="https://dappercat.neocities.org/media/memes/Beefcake_Roku.avif">
+						</a>
+					</div>					
+				</div>
+							
+				<div class="gallery-container">
+					<div class="gallery">
+						<a href="https://dappercat.neocities.org/media/memes/cat_parking_lot_meme.avif" data-fancybox="gallery">
+							<img src="https://dappercat.neocities.org/media/memes/cat_parking_lot_meme.avif">
+						</a>
+					</div>					
+				</div>
+							
+				<div class="gallery-container">
+					<div class="gallery">
+						<a href="https://dappercat.neocities.org/media/memes/devious_dwarf.avif" data-fancybox="gallery">
+							<img src="https://dappercat.neocities.org/media/memes/devious_dwarf.avif">
+						</a>
+					</div>					
+				</div>
+							
+				<div class="gallery-container">
+					<div class="gallery">
+						<a href="https://dappercat.neocities.org/media/memes/erwin_reaction_to_levi.avif" data-fancybox="gallery">
+							<img src="https://dappercat.neocities.org/media/memes/erwin_reaction_to_levi.avif">
+						</a>
+					</div>					
+				</div>
+							
+				<div class="gallery-container">
+					<div class="gallery">
+						<a href="https://dappercat.neocities.org/media/memes/Fremch_Fry_Jaws_Carol.avif" data-fancybox="gallery">
+							<img src="https://dappercat.neocities.org/media/memes/Fremch_Fry_Jaws_Carol.avif">
+						</a>
+					</div>					
+				</div>
+							
+				<div class="gallery-container">
+					<div class="gallery">
+						<a href="https://dappercat.neocities.org/media/memes/humble_warp_nacelle.avif" data-fancybox="gallery">
+							<img src="https://dappercat.neocities.org/media/memes/humble_warp_nacelle.avif">
+						</a>
+					</div>					
+				</div>
+							
+				<div class="gallery-container">
+					<div class="gallery">
+						<a href="https://dappercat.neocities.org/media/memes/KimbleeAtHomeMeme.avif" data-fancybox="gallery">
+							<img src="https://dappercat.neocities.org/media/memes/KimbleeAtHomeMeme.avif">
+						</a>
+					</div>					
+				</div>
+							
+				<div class="gallery-container">
+					<div class="gallery">
+						<a href="https://dappercat.neocities.org/media/memes/more_plushies_on_the_way.avif" data-fancybox="gallery">
+							<img src="https://dappercat.neocities.org/media/memes/more_plushies_on_the_way.avif">
+						</a>
+					</div>					
+				</div>
+							
+				<div class="gallery-container">
+					<div class="gallery">
+						<a href="https://dappercat.neocities.org/media/memes/PalpyChinMeme.avif" data-fancybox="gallery">
+							<img src="https://dappercat.neocities.org/media/memes/PalpyChinMeme.avif">
+						</a>
+					</div>					
+				</div>
+							
+				<div class="gallery-container">
+					<div class="gallery">
+						<a href="https://dappercat.neocities.org/media/memes/PasswordEdward2.avif" data-fancybox="gallery">
+							<img src="https://dappercat.neocities.org/media/memes/PasswordEdward2.avif">
+						</a>
+					</div>					
+				</div>
+							
+				<div class="gallery-container">
+					<div class="gallery">
+						<a href="https://dappercat.neocities.org/media/memes/Sozin_meme.gif" data-fancybox="gallery">
+							<img src="https://dappercat.neocities.org/media/memes/Sozin_meme.gif">
+						</a>
+					</div>					
+				</div>
+							
+				<div class="gallery-container">
+					<div class="gallery">
+						<a href="https://dappercat.neocities.org/media/memes/steeve_is_my_bestest_friend.avif" data-fancybox="gallery">
+							<img src="https://dappercat.neocities.org/media/memes/steeve_is_my_bestest_friend.avif">
+						</a>
+					</div>					
+				</div>
+							
+				<div class="gallery-container">
+					<div class="gallery">
+						<a href="https://dappercat.neocities.org/media/memes/Tokyo_ghoul_fan_starter.avif" data-fancybox="gallery">
+							<img src="https://dappercat.neocities.org/media/memes/Tokyo_ghoul_fan_starter.avif">
+						</a>
+					</div>					
+				</div>
+							
+				<div class="gallery-container">
+					<div class="gallery">
+						<a href="https://dappercat.neocities.org/media/memes/Wrath_tank_meme.avif" data-fancybox="gallery">
+							<img src="https://dappercat.neocities.org/media/memes/Wrath_tank_meme.avif">
+						</a>
+					</div>					
+				</div>
+							
+				<div class="gallery-container">
+					<div class="gallery">
+						<a href="https://dappercat.neocities.org/media/memes/Xing_On_Promised_Day.avif" data-fancybox="gallery">
+							<img src="https://dappercat.neocities.org/media/memes/Xing_On_Promised_Day.avif">
+						</a>
+					</div>					
+				</div>
+																																																																																																																
+			</main>
+
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+		<script>
+		Fancybox.bind('[data-fancybox="gallery"]', {
+        //
+		});    
+		</script>
+		<footer id="footer">
+			<ul>
+				<li><a href="https://www.youtube.com/@Moizsh10"><img src="https://dappercat.neocities.org/media/logos_and_buttons/youtube.png"></a></li>
+				<li><a href="https://steamcommunity.com/id/Moizsh10/"><img src="https://dappercat.neocities.org/media/logos_and_buttons/steam.png"></a></li>
+				<li><a href="https://github.com/Moizsh10"><img src="https://dappercat.neocities.org/media/logos_and_buttons/github-mark-white.png"></a></li>
+				<li><a href="https://neocities.org/"><img src="https://dappercat.neocities.org/media/logos_and_buttons/neocities.png"></a></li>
+			</ul>
+		</footer>
+	</div>
+  </body>
+</html>
