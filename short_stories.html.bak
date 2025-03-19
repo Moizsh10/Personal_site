@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<head>
+  <title>Short Stories</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+</head>
+
+  <body>
+
+	<div id="container">
+  <!--INSERT HEIGHT OF HEADER IMAGE HERE LATER-->
+	<div id="header" style="height: 200px;">
+	<!--	<img src='/DapperCats_Corner_LogoV1.png'>-->
+	</div> 
+		<nav id="navbar"> 
+			<ul>
+				<li><a href="/index.html">Home</a></li>
+				<li><a href="/personal_proj.html">Personal Projects</a></li>
+				<li><a href="/media.html">Media</a></li>
+				<li><a href="/writing.html">Creative Writing</a></li>
+			</ul>
+		</nav>
+		<div id="flex">
+			<main>
+			
+				<div id="story">helo</div>
+			
+			</div>				
+				
+				
+				<h2></h2>
+				
+				<h2></h2>
+				
+				<h2>This site is currently under construction!</h2>
+				
+
+			</main>
+		</div>
+		<footer id="footer">
+			<ul>
+				<li><a href="https://www.youtube.com/@Moizsh10"><img src="https://dappercat.neocities.org/media/logos_and_buttons/youtube.png"></a></li>
+				<li><a href="https://steamcommunity.com/id/Moizsh10/"><img src="https://dappercat.neocities.org/media/logos_and_buttons/steam.png"></a></li>
+				<li><a href="https://github.com/Moizsh10"><img src="https://dappercat.neocities.org/media/logos_and_buttons/github-mark-white.png"></a></li>
+				<li><a href="https://neocities.org/"><img src="https://dappercat.neocities.org/media/logos_and_buttons/neocities.png"></a></li>
+			</ul>
+		</footer>
+	</div>
+  </body>
+  <script type="text/javascript" src="mdToHTML.js"> </script>
+</html>
