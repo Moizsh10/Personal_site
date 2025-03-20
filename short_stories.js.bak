@@ -1,0 +1,9 @@
+function show() {
+	
+	if(document.getElementById(story1).style.display == 'block'){
+		document.getElementById(story1).style.display = 'none';
+	}
+	else {
+		document.getElementById(story1).style.display = 'block';
+	}
+}
