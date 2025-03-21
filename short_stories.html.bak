@@ -29,6 +29,7 @@
 		</nav>
 		<div id="flex">
 			<main>
+				<p>Click on a title of a story to reveal it!</p>
 				<h1><a href="#" class="title" onclick="show('story1');">Pursuit</a></h1>
 					<div id="story1" class="story">
 						
@@ -120,16 +121,10 @@
 						<p>&quot;You have my thanks as well Zirak,&quot; Iman bent down so her face was level with the storm drake&#39;s. Zirak squawked back in response and the princess laughed softly. She stood back up to face Abrar, &quot;Do you think the Touphan will have made it through? I know they have experimental navigation devices but I doubt they are nearly as good as Zirak here,&quot; she asked as she pat the storm drake. </p>
 						<p>&quot;You have impeccable timing your highness,&quot; Abrar replied, pointing towards the rear of the ship. The group turned to watch as a Touphan Man-of-war limped out from the dark clouds alone. The ship almost immediately plummeted to the sea and began to list to the right. They could all barely make out the scrambling figures of the crew, desperate to keep their ship from sinking. The Storm Belt had not left her unscathed. Deep grooves could be seen bitten out of the hull and one of the masts had been shattered and lay across the deck. </p>
 						<p>&quot;I think its quite safe to say they won&#39;t be bothering us for some time&quot; Abrar chuckled. &quot;Now then, I believe we should be able to make good time getting to port Jeera. And then escort you two to your audience in front of the Third Nation parliament.&quot;</p>
-					</div>			
-			</div>				
-				
-				
-				<h2></h2>
-				
-				<h2></h2>
+					</div>							
 				
 				<h2>This site is currently under construction!</h2>
-				
+		
 
 			</main>
 		</div>
