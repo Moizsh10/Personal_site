@@ -132,7 +132,7 @@ main {
 	padding: 20px;
 	order: 2;
 	color: #103E54;
-	border: 5px groove #103E54;
+	border: 10px groove #103E54;
 	outline: 5px solid #FFCF56;
 	position: relative;
 	z-index: 1;
