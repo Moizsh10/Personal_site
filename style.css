@@ -5,11 +5,12 @@
 	
 	/*colors*/
 	--sky-blue: #8cc8e3;
-	--main-border-color: #4AA8D3;
-	--gunmetal-blue: #103242;
-	--navbar-text: #f0f0f0;
-	--alice-blue: #DEEFF7;
+	--indigo-dye: #103E54;
+	--gunmetal: #0D2530;
+	--brown-sugar: #BB7E5D;
+	--sunglow: #ffcf56;
 	--cerulean: #477998;
+	
 }
 
 @font-face {
@@ -39,7 +40,7 @@
 body {
   font-family: 'montserrat-font', sans-serif;
 	margin: 0;
-	background-color: #0D2530;
+	background-color: var(--gunmetal);
 	background-size: 90px;
 	/* color: var(--sky-blue); */
 	/* background-image: var(--body-bg-wave); */
@@ -85,7 +86,7 @@ body {
 #navbar {
 	height: 50px;
 	width: 100%;
-	background-color: #103E54;
+	background-color: var(--indigo-dye);
 	position: sticky;
 	top: 0px;
 	z-index: 0;
@@ -131,9 +132,9 @@ main {
 	flex: 1;
 	padding: 20px;
 	order: 2;
-	color: #103E54;
-	border: 5px groove #103E54;
-	outline: 5px solid #FFCF56;
+	color: var(--indigo-dye);
+	border: 5px groove var(--indigo-dye);
+	outline: 5px solid var(--sunglow);
 	position: relative;
 	z-index: 1;
 }
@@ -169,7 +170,7 @@ main {
 	width: 300px;
 	height: 300px;
 	background-position: center;
-	border: 10px ridge var(--cerulean);
+	border: 10px ridge var(--brown-sugar);
 }
 
 .thumbnail h1 a{
@@ -192,7 +193,7 @@ main {
 	box-sizing: border-box;
 	padding: 5px;
 	align-content: center;
-	background-color: #103E54;
+	background-color: var(--indigo-dye);
 }
 
 #footer ul {

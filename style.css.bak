@@ -5,11 +5,12 @@
 	
 	/*colors*/
 	--sky-blue: #8cc8e3;
-	--main-border-color: #4AA8D3;
-	--gunmetal-blue: #103242;
-	--navbar-text: #f0f0f0;
-	--alice-blue: #DEEFF7;
+	--indigo-dye: #103E54;
+	--gunmetal: #0D2530;
+	--brown-sugar: #BB7E5D;
+	--sunglow: #ffcf56;
 	--cerulean: #477998;
+	
 }
 
 @font-face {
@@ -39,10 +40,10 @@
 body {
   font-family: 'montserrat-font', sans-serif;
 	margin: 0;
-	background-color: #08031A;
+	background-color: var(--gunmetal);
 	background-size: 90px;
-	color: var(--alice-blue);
-	background-image: var(--body-bg-wave);
+	/* color: var(--sky-blue); */
+	/* background-image: var(--body-bg-wave); */
 }
 
             * {
@@ -64,11 +65,11 @@ body {
 }
 
 #container a:link {
-	color: var(--navbar-text);
+	color: #FFCF56;
 }
 
 #container a:visited{
-	color: var(--navbar-text);
+	color: #FFCF56;
 }
 
 #header {
@@ -85,10 +86,10 @@ body {
 #navbar {
 	height: 50px;
 	width: 100%;
-	background-color: var(--gunmetal-blue);
+	background-color: var(--indigo-dye);
 	position: sticky;
 	top: 0px;
-	z-index: 2;
+	z-index: 0;
 
 }
 
@@ -131,8 +132,9 @@ main {
 	flex: 1;
 	padding: 20px;
 	order: 2;
-	color: black;
-	border: 15px groove var(--main-border-color);
+	color: var(--indigo-dye);
+	border: 5px groove var(--indigo-dye);
+	outline: 5px solid var(--sunglow);
 	position: relative;
 	z-index: 1;
 }
@@ -191,7 +193,7 @@ main {
 	box-sizing: border-box;
 	padding: 5px;
 	align-content: center;
-	background-color: var(--gunmetal-blue);
+	background-color: var(--indigo-dye);
 }
 
 #footer ul {
@@ -222,14 +224,17 @@ main {
     */
 
             @media screen and (max-width: 800px) {
+				/*Maintain an aspect ratio of 16:9, the total percentage should be 56.25 for that (9/16)*/
 				#container{
 					padding-top: 28.13%;
 					padding-bottom: 28.13%;
+					min-width: 900px;
 				}
 				
                 #flex {
                     flex-wrap: nowrap;
 					flex-direction: column;
+					flex: 1 0 auto;
                 }
 				
 

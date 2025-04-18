@@ -1,3 +1,14 @@
+:root {
+	/*colors*/
+	--sky-blue: #8cc8e3;
+	--indigo-dye: #103E54;
+	--gunmetal: #0D2530;
+	--brown-sugar: #BB7E5D;
+	--sunglow: #ffcf56;
+	--cerulean: #477998;
+	
+}
+
 
 .gallery-container
 {
@@ -20,11 +31,13 @@
 	margin: 0 20%;
 	outline-style:ridge;
 	outline-width:10px;
-	outline-color:#AD6A6C;
+	outline-color:var(--brown-sugar);
 }
 
 .gallery .description{
-	border: 5px ridge grey;
+	/* border: 5px ridge var(--sunglow); */
+	/* background-color: var(--indigo-dye); */
+	color: var(--indigo-dye);
 	padding: 10px;
 	text-align: center;
 }
