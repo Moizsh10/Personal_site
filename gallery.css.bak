@@ -37,14 +37,16 @@
 .gallery .description{
 	/* border: 5px ridge var(--sunglow); */
 	/* background-color: var(--indigo-dye); */
-	color: var(--sunglow);
+	color: var(--indigo-dye);
 	padding: 10px;
 	text-align: center;
+	text-style: bold;
 }
 
 .gallery img {
 	width: 100%;
 	height: auto;
+	border: 5px solid var(--indigo-dye);
 }
 
 .gallery img:hover{

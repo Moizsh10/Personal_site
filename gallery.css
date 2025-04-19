@@ -40,11 +40,13 @@
 	color: var(--indigo-dye);
 	padding: 10px;
 	text-align: center;
+	font-weight: bold;
 }
 
 .gallery img {
 	width: 100%;
 	height: auto;
+	border: 5px solid var(--indigo-dye);
 }
 
 .gallery img:hover{
